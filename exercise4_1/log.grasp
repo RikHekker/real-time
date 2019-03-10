@@ -1,0 +1,3097 @@
+newTask 63 -priority 63
+newTask 62 -priority 62
+newTask 61 -priority 61
+newTask 0 -priority 0
+plot 0 jobPreempted 0.0 -target 61.0
+plot 0 jobResumed 61.0
+plot 0 jobPreempted 61.0 -target 62.0
+plot 0 jobResumed 62.0
+plot 0 jobPreempted 62.0 -target 63.0
+plot 0 jobResumed 63.0
+plot 2 jobPreempted 0.0 -target 63.0
+plot 2 jobResumed 63.0
+newTask 1 -priority 1
+newTask 2 -priority 2
+plot 7 jobArrived 2.1 2
+plot 7 jobPreempted 0.0 -target 1.0
+plot 7 jobResumed 1.0
+plot 7 jobCompleted 1.0
+plot 7 jobPreempted 1.0 -target 2.0
+plot 7 jobResumed 2.0
+plot 7 jobCompleted 2.0
+plot 7 jobResumed 2.1
+plot 8 jobArrived 1.1 1
+plot 8 jobResumed 1.1
+plot 9 jobCompleted 1.1
+plot 9 jobPreempted 1.1 -target 2.1
+plot 9 jobResumed 2.1
+plot 9 jobCompleted 2.1
+plot 9 jobPreempted 2.1 -target 63.0
+plot 9 jobResumed 63.0
+plot 10 jobPreempted 62.0 -target 63.0
+plot 10 jobResumed 63.0
+plot 17 jobArrived 2.2 2
+plot 17 jobResumed 2.2
+plot 18 jobArrived 1.2 1
+plot 18 jobResumed 1.2
+plot 19 jobCompleted 1.2
+plot 19 jobPreempted 1.2 -target 2.2
+plot 19 jobResumed 2.2
+plot 19 jobCompleted 2.2
+plot 19 jobPreempted 2.2 -target 63.0
+plot 19 jobResumed 63.0
+plot 27 jobArrived 2.3 2
+plot 27 jobResumed 2.3
+plot 28 jobArrived 1.3 1
+plot 28 jobResumed 1.3
+plot 29 jobCompleted 1.3
+plot 29 jobPreempted 1.3 -target 2.3
+plot 29 jobResumed 2.3
+plot 29 jobCompleted 2.3
+plot 29 jobPreempted 2.3 -target 63.0
+plot 29 jobResumed 63.0
+plot 37 jobArrived 2.4 2
+plot 37 jobResumed 2.4
+plot 38 jobArrived 1.4 1
+plot 38 jobResumed 1.4
+plot 39 jobCompleted 1.4
+plot 39 jobPreempted 1.4 -target 2.4
+plot 39 jobResumed 2.4
+plot 39 jobCompleted 2.4
+plot 39 jobPreempted 2.4 -target 63.0
+plot 39 jobResumed 63.0
+plot 47 jobArrived 2.5 2
+plot 47 jobResumed 2.5
+plot 48 jobArrived 1.5 1
+plot 48 jobResumed 1.5
+plot 49 jobCompleted 1.5
+plot 49 jobPreempted 1.5 -target 2.5
+plot 49 jobResumed 2.5
+plot 49 jobCompleted 2.5
+plot 49 jobPreempted 2.5 -target 63.0
+plot 49 jobResumed 63.0
+plot 57 jobArrived 2.6 2
+plot 57 jobPreempted 0.0 -target 2.5
+plot 57 jobResumed 2.5
+plot 57 jobResumed 2.6
+plot 58 jobArrived 1.6 1
+plot 58 jobResumed 1.6
+plot 59 jobCompleted 1.6
+plot 59 jobPreempted 1.6 -target 2.6
+plot 59 jobResumed 2.6
+plot 59 jobCompleted 2.6
+plot 59 jobPreempted 2.6 -target 63.0
+plot 59 jobResumed 63.0
+plot 67 jobArrived 2.7 2
+plot 67 jobResumed 2.7
+plot 68 jobArrived 1.7 1
+plot 68 jobResumed 1.7
+plot 69 jobCompleted 1.7
+plot 69 jobPreempted 1.7 -target 2.7
+plot 69 jobResumed 2.7
+plot 69 jobCompleted 2.7
+plot 69 jobPreempted 2.7 -target 63.0
+plot 69 jobResumed 63.0
+plot 77 jobArrived 2.8 2
+plot 77 jobResumed 2.8
+plot 78 jobArrived 1.8 1
+plot 78 jobResumed 1.8
+plot 79 jobCompleted 1.8
+plot 79 jobPreempted 1.8 -target 2.8
+plot 79 jobResumed 2.8
+plot 79 jobCompleted 2.8
+plot 79 jobPreempted 2.8 -target 63.0
+plot 79 jobResumed 63.0
+plot 87 jobArrived 2.9 2
+plot 87 jobResumed 2.9
+plot 88 jobArrived 1.9 1
+plot 88 jobResumed 1.9
+plot 89 jobCompleted 1.9
+plot 89 jobPreempted 1.9 -target 2.9
+plot 89 jobResumed 2.9
+plot 89 jobCompleted 2.9
+plot 89 jobPreempted 2.9 -target 63.0
+plot 89 jobResumed 63.0
+plot 97 jobArrived 2.10 2
+plot 97 jobResumed 2.10
+plot 98 jobArrived 1.10 1
+plot 98 jobResumed 1.10
+plot 99 jobCompleted 1.10
+plot 99 jobPreempted 1.10 -target 2.10
+plot 99 jobResumed 2.10
+plot 99 jobCompleted 2.10
+plot 99 jobPreempted 2.10 -target 63.0
+plot 99 jobResumed 63.0
+plot 107 jobArrived 2.11 2
+plot 107 jobPreempted 0.0 -target 2.10
+plot 107 jobResumed 2.10
+plot 107 jobResumed 2.11
+plot 108 jobArrived 1.11 1
+plot 108 jobResumed 1.11
+plot 109 jobCompleted 1.11
+plot 109 jobPreempted 1.11 -target 2.11
+plot 109 jobResumed 2.11
+plot 109 jobCompleted 2.11
+plot 109 jobPreempted 2.11 -target 63.0
+plot 109 jobResumed 63.0
+plot 117 jobArrived 2.12 2
+plot 117 jobResumed 2.12
+plot 118 jobArrived 1.12 1
+plot 118 jobResumed 1.12
+plot 119 jobCompleted 1.12
+plot 119 jobPreempted 1.12 -target 2.12
+plot 119 jobResumed 2.12
+plot 119 jobCompleted 2.12
+plot 119 jobPreempted 2.12 -target 63.0
+plot 119 jobResumed 63.0
+plot 127 jobArrived 2.13 2
+plot 127 jobResumed 2.13
+plot 128 jobArrived 1.13 1
+plot 128 jobResumed 1.13
+plot 129 jobCompleted 1.13
+plot 129 jobPreempted 1.13 -target 2.13
+plot 129 jobResumed 2.13
+plot 129 jobCompleted 2.13
+plot 129 jobPreempted 2.13 -target 63.0
+plot 129 jobResumed 63.0
+plot 137 jobArrived 2.14 2
+plot 137 jobResumed 2.14
+plot 138 jobArrived 1.14 1
+plot 138 jobResumed 1.14
+plot 139 jobCompleted 1.14
+plot 139 jobPreempted 1.14 -target 2.14
+plot 139 jobResumed 2.14
+plot 139 jobCompleted 2.14
+plot 139 jobPreempted 2.14 -target 63.0
+plot 139 jobResumed 63.0
+plot 147 jobArrived 2.15 2
+plot 147 jobResumed 2.15
+plot 148 jobArrived 1.15 1
+plot 148 jobResumed 1.15
+plot 149 jobCompleted 1.15
+plot 149 jobPreempted 1.15 -target 2.15
+plot 149 jobResumed 2.15
+plot 149 jobCompleted 2.15
+plot 149 jobPreempted 2.15 -target 63.0
+plot 149 jobResumed 63.0
+plot 157 jobArrived 2.16 2
+plot 157 jobPreempted 0.0 -target 2.15
+plot 157 jobResumed 2.15
+plot 157 jobResumed 2.16
+plot 158 jobArrived 1.16 1
+plot 158 jobResumed 1.16
+plot 159 jobCompleted 1.16
+plot 159 jobPreempted 1.16 -target 2.16
+plot 159 jobResumed 2.16
+plot 159 jobCompleted 2.16
+plot 159 jobPreempted 2.16 -target 63.0
+plot 159 jobResumed 63.0
+plot 167 jobArrived 2.17 2
+plot 167 jobResumed 2.17
+plot 168 jobArrived 1.17 1
+plot 168 jobResumed 1.17
+plot 169 jobCompleted 1.17
+plot 169 jobPreempted 1.17 -target 2.17
+plot 169 jobResumed 2.17
+plot 169 jobCompleted 2.17
+plot 169 jobPreempted 2.17 -target 63.0
+plot 169 jobResumed 63.0
+plot 177 jobArrived 2.18 2
+plot 177 jobResumed 2.18
+plot 178 jobArrived 1.18 1
+plot 178 jobResumed 1.18
+plot 179 jobCompleted 1.18
+plot 179 jobPreempted 1.18 -target 2.18
+plot 179 jobResumed 2.18
+plot 179 jobCompleted 2.18
+plot 179 jobPreempted 2.18 -target 63.0
+plot 179 jobResumed 63.0
+plot 187 jobArrived 2.19 2
+plot 187 jobResumed 2.19
+plot 188 jobArrived 1.19 1
+plot 188 jobResumed 1.19
+plot 189 jobCompleted 1.19
+plot 189 jobPreempted 1.19 -target 2.19
+plot 189 jobResumed 2.19
+plot 189 jobCompleted 2.19
+plot 189 jobPreempted 2.19 -target 63.0
+plot 189 jobResumed 63.0
+plot 197 jobArrived 2.20 2
+plot 197 jobResumed 2.20
+plot 198 jobArrived 1.20 1
+plot 198 jobResumed 1.20
+plot 199 jobCompleted 1.20
+plot 199 jobPreempted 1.20 -target 2.20
+plot 199 jobResumed 2.20
+plot 199 jobCompleted 2.20
+plot 199 jobPreempted 2.20 -target 63.0
+plot 199 jobResumed 63.0
+plot 207 jobArrived 2.21 2
+plot 207 jobPreempted 0.0 -target 2.20
+plot 207 jobResumed 2.20
+plot 207 jobResumed 2.21
+plot 208 jobArrived 1.21 1
+plot 208 jobResumed 1.21
+plot 209 jobCompleted 1.21
+plot 209 jobPreempted 1.21 -target 2.21
+plot 209 jobResumed 2.21
+plot 209 jobCompleted 2.21
+plot 209 jobPreempted 2.21 -target 63.0
+plot 209 jobResumed 63.0
+plot 217 jobArrived 2.22 2
+plot 217 jobResumed 2.22
+plot 218 jobArrived 1.22 1
+plot 218 jobResumed 1.22
+plot 219 jobCompleted 1.22
+plot 219 jobPreempted 1.22 -target 2.22
+plot 219 jobResumed 2.22
+plot 219 jobCompleted 2.22
+plot 219 jobPreempted 2.22 -target 63.0
+plot 219 jobResumed 63.0
+plot 227 jobArrived 2.23 2
+plot 227 jobResumed 2.23
+plot 228 jobArrived 1.23 1
+plot 228 jobResumed 1.23
+plot 229 jobCompleted 1.23
+plot 229 jobPreempted 1.23 -target 2.23
+plot 229 jobResumed 2.23
+plot 229 jobCompleted 2.23
+plot 229 jobPreempted 2.23 -target 63.0
+plot 229 jobResumed 63.0
+plot 237 jobArrived 2.24 2
+plot 237 jobResumed 2.24
+plot 238 jobArrived 1.24 1
+plot 238 jobResumed 1.24
+plot 239 jobCompleted 1.24
+plot 239 jobPreempted 1.24 -target 2.24
+plot 239 jobResumed 2.24
+plot 239 jobCompleted 2.24
+plot 239 jobPreempted 2.24 -target 63.0
+plot 239 jobResumed 63.0
+plot 247 jobArrived 2.25 2
+plot 247 jobResumed 2.25
+plot 248 jobArrived 1.25 1
+plot 248 jobResumed 1.25
+plot 249 jobCompleted 1.25
+plot 249 jobPreempted 1.25 -target 2.25
+plot 249 jobResumed 2.25
+plot 249 jobCompleted 2.25
+plot 249 jobPreempted 2.25 -target 63.0
+plot 249 jobResumed 63.0
+plot 257 jobArrived 2.26 2
+plot 257 jobPreempted 0.0 -target 2.25
+plot 257 jobResumed 2.25
+plot 257 jobResumed 2.26
+plot 258 jobArrived 1.26 1
+plot 258 jobResumed 1.26
+plot 259 jobCompleted 1.26
+plot 259 jobPreempted 1.26 -target 2.26
+plot 259 jobResumed 2.26
+plot 259 jobCompleted 2.26
+plot 259 jobPreempted 2.26 -target 63.0
+plot 259 jobResumed 63.0
+plot 267 jobArrived 2.27 2
+plot 267 jobResumed 2.27
+plot 268 jobArrived 1.27 1
+plot 268 jobResumed 1.27
+plot 269 jobCompleted 1.27
+plot 269 jobPreempted 1.27 -target 2.27
+plot 269 jobResumed 2.27
+plot 269 jobCompleted 2.27
+plot 269 jobPreempted 2.27 -target 63.0
+plot 269 jobResumed 63.0
+plot 277 jobArrived 2.28 2
+plot 277 jobResumed 2.28
+plot 278 jobArrived 1.28 1
+plot 278 jobResumed 1.28
+plot 279 jobCompleted 1.28
+plot 279 jobPreempted 1.28 -target 2.28
+plot 279 jobResumed 2.28
+plot 279 jobCompleted 2.28
+plot 279 jobPreempted 2.28 -target 63.0
+plot 279 jobResumed 63.0
+plot 287 jobArrived 2.29 2
+plot 287 jobResumed 2.29
+plot 288 jobArrived 1.29 1
+plot 288 jobResumed 1.29
+plot 289 jobCompleted 1.29
+plot 289 jobPreempted 1.29 -target 2.29
+plot 289 jobResumed 2.29
+plot 289 jobCompleted 2.29
+plot 289 jobPreempted 2.29 -target 63.0
+plot 289 jobResumed 63.0
+plot 297 jobArrived 2.30 2
+plot 297 jobResumed 2.30
+plot 298 jobArrived 1.30 1
+plot 298 jobResumed 1.30
+plot 299 jobCompleted 1.30
+plot 299 jobPreempted 1.30 -target 2.30
+plot 299 jobResumed 2.30
+plot 299 jobCompleted 2.30
+plot 299 jobPreempted 2.30 -target 63.0
+plot 299 jobResumed 63.0
+plot 307 jobArrived 2.31 2
+plot 307 jobPreempted 0.0 -target 2.30
+plot 307 jobResumed 2.30
+plot 307 jobResumed 2.31
+plot 308 jobArrived 1.31 1
+plot 308 jobResumed 1.31
+plot 309 jobCompleted 1.31
+plot 309 jobPreempted 1.31 -target 2.31
+plot 309 jobResumed 2.31
+plot 309 jobCompleted 2.31
+plot 309 jobPreempted 2.31 -target 63.0
+plot 309 jobResumed 63.0
+plot 317 jobArrived 2.32 2
+plot 317 jobResumed 2.32
+plot 318 jobArrived 1.32 1
+plot 318 jobResumed 1.32
+plot 319 jobCompleted 1.32
+plot 319 jobPreempted 1.32 -target 2.32
+plot 319 jobResumed 2.32
+plot 319 jobCompleted 2.32
+plot 319 jobPreempted 2.32 -target 63.0
+plot 319 jobResumed 63.0
+plot 327 jobArrived 2.33 2
+plot 327 jobResumed 2.33
+plot 328 jobArrived 1.33 1
+plot 328 jobResumed 1.33
+plot 329 jobCompleted 1.33
+plot 329 jobPreempted 1.33 -target 2.33
+plot 329 jobResumed 2.33
+plot 329 jobCompleted 2.33
+plot 329 jobPreempted 2.33 -target 63.0
+plot 329 jobResumed 63.0
+plot 337 jobArrived 2.34 2
+plot 337 jobResumed 2.34
+plot 338 jobArrived 1.34 1
+plot 338 jobResumed 1.34
+plot 339 jobCompleted 1.34
+plot 339 jobPreempted 1.34 -target 2.34
+plot 339 jobResumed 2.34
+plot 339 jobCompleted 2.34
+plot 339 jobPreempted 2.34 -target 63.0
+plot 339 jobResumed 63.0
+plot 347 jobArrived 2.35 2
+plot 347 jobResumed 2.35
+plot 348 jobArrived 1.35 1
+plot 348 jobResumed 1.35
+plot 349 jobCompleted 1.35
+plot 349 jobPreempted 1.35 -target 2.35
+plot 349 jobResumed 2.35
+plot 349 jobCompleted 2.35
+plot 349 jobPreempted 2.35 -target 63.0
+plot 349 jobResumed 63.0
+plot 357 jobArrived 2.36 2
+plot 357 jobPreempted 0.0 -target 2.35
+plot 357 jobResumed 2.35
+plot 357 jobResumed 2.36
+plot 358 jobArrived 1.36 1
+plot 358 jobResumed 1.36
+plot 359 jobCompleted 1.36
+plot 359 jobPreempted 1.36 -target 2.36
+plot 359 jobResumed 2.36
+plot 359 jobCompleted 2.36
+plot 359 jobPreempted 2.36 -target 63.0
+plot 359 jobResumed 63.0
+plot 367 jobArrived 2.37 2
+plot 367 jobResumed 2.37
+plot 368 jobArrived 1.37 1
+plot 368 jobResumed 1.37
+plot 369 jobCompleted 1.37
+plot 369 jobPreempted 1.37 -target 2.37
+plot 369 jobResumed 2.37
+plot 369 jobCompleted 2.37
+plot 369 jobPreempted 2.37 -target 63.0
+plot 369 jobResumed 63.0
+plot 377 jobArrived 2.38 2
+plot 377 jobResumed 2.38
+plot 378 jobArrived 1.38 1
+plot 378 jobResumed 1.38
+plot 379 jobCompleted 1.38
+plot 379 jobPreempted 1.38 -target 2.38
+plot 379 jobResumed 2.38
+plot 379 jobCompleted 2.38
+plot 379 jobPreempted 2.38 -target 63.0
+plot 379 jobResumed 63.0
+plot 387 jobArrived 2.39 2
+plot 387 jobResumed 2.39
+plot 388 jobArrived 1.39 1
+plot 388 jobResumed 1.39
+plot 389 jobCompleted 1.39
+plot 389 jobPreempted 1.39 -target 2.39
+plot 389 jobResumed 2.39
+plot 389 jobCompleted 2.39
+plot 389 jobPreempted 2.39 -target 63.0
+plot 389 jobResumed 63.0
+plot 397 jobArrived 2.40 2
+plot 397 jobResumed 2.40
+plot 398 jobArrived 1.40 1
+plot 398 jobResumed 1.40
+plot 399 jobCompleted 1.40
+plot 399 jobPreempted 1.40 -target 2.40
+plot 399 jobResumed 2.40
+plot 399 jobCompleted 2.40
+plot 399 jobPreempted 2.40 -target 63.0
+plot 399 jobResumed 63.0
+plot 407 jobArrived 2.41 2
+plot 407 jobPreempted 0.0 -target 2.40
+plot 407 jobResumed 2.40
+plot 407 jobResumed 2.41
+plot 408 jobArrived 1.41 1
+plot 408 jobResumed 1.41
+plot 409 jobCompleted 1.41
+plot 409 jobPreempted 1.41 -target 2.41
+plot 409 jobResumed 2.41
+plot 409 jobCompleted 2.41
+plot 409 jobPreempted 2.41 -target 63.0
+plot 409 jobResumed 63.0
+plot 417 jobArrived 2.42 2
+plot 417 jobResumed 2.42
+plot 418 jobArrived 1.42 1
+plot 418 jobResumed 1.42
+plot 419 jobCompleted 1.42
+plot 419 jobPreempted 1.42 -target 2.42
+plot 419 jobResumed 2.42
+plot 419 jobCompleted 2.42
+plot 419 jobPreempted 2.42 -target 63.0
+plot 419 jobResumed 63.0
+plot 427 jobArrived 2.43 2
+plot 427 jobResumed 2.43
+plot 428 jobArrived 1.43 1
+plot 428 jobResumed 1.43
+plot 429 jobCompleted 1.43
+plot 429 jobPreempted 1.43 -target 2.43
+plot 429 jobResumed 2.43
+plot 429 jobCompleted 2.43
+plot 429 jobPreempted 2.43 -target 63.0
+plot 429 jobResumed 63.0
+plot 437 jobArrived 2.44 2
+plot 437 jobResumed 2.44
+plot 438 jobArrived 1.44 1
+plot 438 jobResumed 1.44
+plot 439 jobCompleted 1.44
+plot 439 jobPreempted 1.44 -target 2.44
+plot 439 jobResumed 2.44
+plot 439 jobCompleted 2.44
+plot 439 jobPreempted 2.44 -target 63.0
+plot 439 jobResumed 63.0
+plot 447 jobArrived 2.45 2
+plot 447 jobResumed 2.45
+plot 448 jobArrived 1.45 1
+plot 448 jobResumed 1.45
+plot 449 jobCompleted 1.45
+plot 449 jobPreempted 1.45 -target 2.45
+plot 449 jobResumed 2.45
+plot 449 jobCompleted 2.45
+plot 449 jobPreempted 2.45 -target 63.0
+plot 449 jobResumed 63.0
+plot 457 jobArrived 2.46 2
+plot 457 jobPreempted 0.0 -target 2.45
+plot 457 jobResumed 2.45
+plot 457 jobResumed 2.46
+plot 458 jobArrived 1.46 1
+plot 458 jobResumed 1.46
+plot 459 jobCompleted 1.46
+plot 459 jobPreempted 1.46 -target 2.46
+plot 459 jobResumed 2.46
+plot 459 jobCompleted 2.46
+plot 459 jobPreempted 2.46 -target 63.0
+plot 459 jobResumed 63.0
+plot 467 jobArrived 2.47 2
+plot 467 jobResumed 2.47
+plot 468 jobArrived 1.47 1
+plot 468 jobResumed 1.47
+plot 469 jobCompleted 1.47
+plot 469 jobPreempted 1.47 -target 2.47
+plot 469 jobResumed 2.47
+plot 469 jobCompleted 2.47
+plot 469 jobPreempted 2.47 -target 63.0
+plot 469 jobResumed 63.0
+plot 477 jobArrived 2.48 2
+plot 477 jobResumed 2.48
+plot 478 jobArrived 1.48 1
+plot 478 jobResumed 1.48
+plot 479 jobCompleted 1.48
+plot 479 jobPreempted 1.48 -target 2.48
+plot 479 jobResumed 2.48
+plot 479 jobCompleted 2.48
+plot 479 jobPreempted 2.48 -target 63.0
+plot 479 jobResumed 63.0
+newTask 63 -priority 63
+newTask 62 -priority 62
+newTask 61 -priority 61
+newTask 0 -priority 0
+plot 0 jobPreempted 0.0 -target 61.0
+plot 0 jobResumed 61.0
+plot 0 jobPreempted 61.0 -target 62.0
+plot 0 jobResumed 62.0
+plot 0 jobPreempted 62.0 -target 63.0
+plot 0 jobResumed 63.0
+plot 2 jobPreempted 0.0 -target 63.0
+plot 2 jobResumed 63.0
+newTask 1 -priority 1
+newTask 2 -priority 2
+plot 7 jobArrived 2.1 2
+plot 7 jobPreempted 0.0 -target 1.0
+plot 7 jobResumed 1.0
+plot 7 jobCompleted 1.0
+plot 7 jobPreempted 1.0 -target 2.0
+plot 7 jobResumed 2.0
+plot 7 jobCompleted 2.0
+plot 7 jobResumed 2.1
+plot 8 jobArrived 1.1 1
+plot 8 jobResumed 1.1
+plot 9 jobCompleted 1.1
+plot 9 jobPreempted 1.1 -target 2.1
+plot 9 jobResumed 2.1
+plot 9 jobCompleted 2.1
+plot 9 jobPreempted 2.1 -target 63.0
+plot 9 jobResumed 63.0
+plot 10 jobPreempted 62.0 -target 63.0
+plot 10 jobResumed 63.0
+plot 17 jobArrived 2.2 2
+plot 17 jobResumed 2.2
+plot 18 jobArrived 1.2 1
+plot 18 jobResumed 1.2
+plot 19 jobCompleted 1.2
+plot 19 jobPreempted 1.2 -target 2.2
+plot 19 jobResumed 2.2
+plot 19 jobCompleted 2.2
+plot 19 jobPreempted 2.2 -target 63.0
+plot 19 jobResumed 63.0
+plot 27 jobArrived 2.3 2
+plot 27 jobResumed 2.3
+plot 28 jobArrived 1.3 1
+plot 28 jobResumed 1.3
+plot 29 jobCompleted 1.3
+plot 29 jobPreempted 1.3 -target 2.3
+plot 29 jobResumed 2.3
+plot 29 jobCompleted 2.3
+plot 29 jobPreempted 2.3 -target 63.0
+plot 29 jobResumed 63.0
+plot 37 jobArrived 2.4 2
+plot 37 jobResumed 2.4
+plot 38 jobArrived 1.4 1
+plot 38 jobResumed 1.4
+plot 39 jobCompleted 1.4
+plot 39 jobPreempted 1.4 -target 2.4
+plot 39 jobResumed 2.4
+plot 39 jobCompleted 2.4
+plot 39 jobPreempted 2.4 -target 63.0
+plot 39 jobResumed 63.0
+plot 47 jobArrived 2.5 2
+plot 47 jobResumed 2.5
+plot 48 jobArrived 1.5 1
+plot 48 jobResumed 1.5
+plot 49 jobCompleted 1.5
+plot 49 jobPreempted 1.5 -target 2.5
+plot 49 jobResumed 2.5
+plot 49 jobCompleted 2.5
+plot 49 jobPreempted 2.5 -target 63.0
+plot 49 jobResumed 63.0
+plot 57 jobArrived 2.6 2
+plot 57 jobPreempted 0.0 -target 2.5
+plot 57 jobResumed 2.5
+plot 57 jobResumed 2.6
+plot 58 jobArrived 1.6 1
+plot 58 jobResumed 1.6
+plot 59 jobCompleted 1.6
+plot 59 jobPreempted 1.6 -target 2.6
+plot 59 jobResumed 2.6
+plot 59 jobCompleted 2.6
+plot 59 jobPreempted 2.6 -target 63.0
+plot 59 jobResumed 63.0
+plot 67 jobArrived 2.7 2
+plot 67 jobResumed 2.7
+plot 68 jobArrived 1.7 1
+plot 68 jobResumed 1.7
+plot 69 jobCompleted 1.7
+plot 69 jobPreempted 1.7 -target 2.7
+plot 69 jobResumed 2.7
+plot 69 jobCompleted 2.7
+plot 69 jobPreempted 2.7 -target 63.0
+plot 69 jobResumed 63.0
+plot 77 jobArrived 2.8 2
+plot 77 jobResumed 2.8
+plot 78 jobArrived 1.8 1
+plot 78 jobResumed 1.8
+plot 79 jobCompleted 1.8
+plot 79 jobPreempted 1.8 -target 2.8
+plot 79 jobResumed 2.8
+plot 79 jobCompleted 2.8
+plot 79 jobPreempted 2.8 -target 63.0
+plot 79 jobResumed 63.0
+plot 87 jobArrived 2.9 2
+plot 87 jobResumed 2.9
+plot 88 jobArrived 1.9 1
+plot 88 jobResumed 1.9
+plot 89 jobCompleted 1.9
+plot 89 jobPreempted 1.9 -target 2.9
+plot 89 jobResumed 2.9
+plot 89 jobCompleted 2.9
+plot 89 jobPreempted 2.9 -target 63.0
+plot 89 jobResumed 63.0
+plot 97 jobArrived 2.10 2
+plot 97 jobResumed 2.10
+plot 98 jobArrived 1.10 1
+plot 98 jobResumed 1.10
+plot 99 jobCompleted 1.10
+plot 99 jobPreempted 1.10 -target 2.10
+plot 99 jobResumed 2.10
+plot 99 jobCompleted 2.10
+plot 99 jobPreempted 2.10 -target 63.0
+plot 99 jobResumed 63.0
+plot 107 jobArrived 2.11 2
+plot 107 jobPreempted 0.0 -target 2.10
+plot 107 jobResumed 2.10
+plot 107 jobResumed 2.11
+plot 108 jobArrived 1.11 1
+plot 108 jobResumed 1.11
+plot 109 jobCompleted 1.11
+plot 109 jobPreempted 1.11 -target 2.11
+plot 109 jobResumed 2.11
+plot 109 jobCompleted 2.11
+plot 109 jobPreempted 2.11 -target 63.0
+plot 109 jobResumed 63.0
+plot 117 jobArrived 2.12 2
+plot 117 jobResumed 2.12
+plot 118 jobArrived 1.12 1
+plot 118 jobResumed 1.12
+plot 119 jobCompleted 1.12
+plot 119 jobPreempted 1.12 -target 2.12
+plot 119 jobResumed 2.12
+plot 119 jobCompleted 2.12
+plot 119 jobPreempted 2.12 -target 63.0
+plot 119 jobResumed 63.0
+plot 127 jobArrived 2.13 2
+plot 127 jobResumed 2.13
+plot 128 jobArrived 1.13 1
+plot 128 jobResumed 1.13
+plot 129 jobCompleted 1.13
+plot 129 jobPreempted 1.13 -target 2.13
+plot 129 jobResumed 2.13
+plot 129 jobCompleted 2.13
+plot 129 jobPreempted 2.13 -target 63.0
+plot 129 jobResumed 63.0
+plot 137 jobArrived 2.14 2
+plot 137 jobResumed 2.14
+plot 138 jobArrived 1.14 1
+plot 138 jobResumed 1.14
+plot 139 jobCompleted 1.14
+plot 139 jobPreempted 1.14 -target 2.14
+plot 139 jobResumed 2.14
+plot 139 jobCompleted 2.14
+plot 139 jobPreempted 2.14 -target 63.0
+plot 139 jobResumed 63.0
+plot 147 jobArrived 2.15 2
+plot 147 jobResumed 2.15
+plot 148 jobArrived 1.15 1
+plot 148 jobResumed 1.15
+plot 149 jobCompleted 1.15
+plot 149 jobPreempted 1.15 -target 2.15
+plot 149 jobResumed 2.15
+plot 149 jobCompleted 2.15
+plot 149 jobPreempted 2.15 -target 63.0
+plot 149 jobResumed 63.0
+plot 157 jobArrived 2.16 2
+plot 157 jobPreempted 0.0 -target 2.15
+plot 157 jobResumed 2.15
+plot 157 jobResumed 2.16
+plot 158 jobArrived 1.16 1
+plot 158 jobResumed 1.16
+plot 159 jobCompleted 1.16
+plot 159 jobPreempted 1.16 -target 2.16
+plot 159 jobResumed 2.16
+plot 159 jobCompleted 2.16
+plot 159 jobPreempted 2.16 -target 63.0
+plot 159 jobResumed 63.0
+plot 167 jobArrived 2.17 2
+plot 167 jobResumed 2.17
+plot 168 jobArrived 1.17 1
+plot 168 jobResumed 1.17
+plot 169 jobCompleted 1.17
+plot 169 jobPreempted 1.17 -target 2.17
+plot 169 jobResumed 2.17
+plot 169 jobCompleted 2.17
+plot 169 jobPreempted 2.17 -target 63.0
+plot 169 jobResumed 63.0
+plot 177 jobArrived 2.18 2
+plot 177 jobResumed 2.18
+plot 178 jobArrived 1.18 1
+plot 178 jobResumed 1.18
+plot 179 jobCompleted 1.18
+plot 179 jobPreempted 1.18 -target 2.18
+plot 179 jobResumed 2.18
+plot 179 jobCompleted 2.18
+plot 179 jobPreempted 2.18 -target 63.0
+plot 179 jobResumed 63.0
+plot 187 jobArrived 2.19 2
+plot 187 jobResumed 2.19
+plot 188 jobArrived 1.19 1
+plot 188 jobResumed 1.19
+plot 189 jobCompleted 1.19
+plot 189 jobPreempted 1.19 -target 2.19
+plot 189 jobResumed 2.19
+plot 189 jobCompleted 2.19
+plot 189 jobPreempted 2.19 -target 63.0
+plot 189 jobResumed 63.0
+plot 197 jobArrived 2.20 2
+plot 197 jobResumed 2.20
+plot 198 jobArrived 1.20 1
+plot 198 jobResumed 1.20
+plot 199 jobCompleted 1.20
+plot 199 jobPreempted 1.20 -target 2.20
+plot 199 jobResumed 2.20
+plot 199 jobCompleted 2.20
+plot 199 jobPreempted 2.20 -target 63.0
+plot 199 jobResumed 63.0
+plot 207 jobArrived 2.21 2
+plot 207 jobPreempted 0.0 -target 2.20
+plot 207 jobResumed 2.20
+plot 207 jobResumed 2.21
+plot 208 jobArrived 1.21 1
+plot 208 jobResumed 1.21
+plot 209 jobCompleted 1.21
+plot 209 jobPreempted 1.21 -target 2.21
+plot 209 jobResumed 2.21
+plot 209 jobCompleted 2.21
+plot 209 jobPreempted 2.21 -target 63.0
+plot 209 jobResumed 63.0
+plot 217 jobArrived 2.22 2
+plot 217 jobResumed 2.22
+plot 218 jobArrived 1.22 1
+plot 218 jobResumed 1.22
+plot 219 jobCompleted 1.22
+plot 219 jobPreempted 1.22 -target 2.22
+plot 219 jobResumed 2.22
+plot 219 jobCompleted 2.22
+plot 219 jobPreempted 2.22 -target 63.0
+plot 219 jobResumed 63.0
+plot 227 jobArrived 2.23 2
+plot 227 jobResumed 2.23
+plot 228 jobArrived 1.23 1
+plot 228 jobResumed 1.23
+plot 229 jobCompleted 1.23
+plot 229 jobPreempted 1.23 -target 2.23
+plot 229 jobResumed 2.23
+plot 229 jobCompleted 2.23
+plot 229 jobPreempted 2.23 -target 63.0
+plot 229 jobResumed 63.0
+plot 237 jobArrived 2.24 2
+plot 237 jobResumed 2.24
+plot 238 jobArrived 1.24 1
+plot 238 jobResumed 1.24
+plot 239 jobCompleted 1.24
+plot 239 jobPreempted 1.24 -target 2.24
+plot 239 jobResumed 2.24
+plot 239 jobCompleted 2.24
+plot 239 jobPreempted 2.24 -target 63.0
+plot 239 jobResumed 63.0
+plot 247 jobArrived 2.25 2
+plot 247 jobResumed 2.25
+plot 248 jobArrived 1.25 1
+plot 248 jobResumed 1.25
+plot 249 jobCompleted 1.25
+plot 249 jobPreempted 1.25 -target 2.25
+plot 249 jobResumed 2.25
+plot 249 jobCompleted 2.25
+plot 249 jobPreempted 2.25 -target 63.0
+plot 249 jobResumed 63.0
+plot 257 jobArrived 2.26 2
+plot 257 jobPreempted 0.0 -target 2.25
+plot 257 jobResumed 2.25
+plot 257 jobResumed 2.26
+plot 258 jobArrived 1.26 1
+plot 258 jobResumed 1.26
+plot 259 jobCompleted 1.26
+plot 259 jobPreempted 1.26 -target 2.26
+plot 259 jobResumed 2.26
+plot 259 jobCompleted 2.26
+plot 259 jobPreempted 2.26 -target 63.0
+plot 259 jobResumed 63.0
+plot 267 jobArrived 2.27 2
+plot 267 jobResumed 2.27
+plot 268 jobArrived 1.27 1
+plot 268 jobResumed 1.27
+plot 269 jobCompleted 1.27
+plot 269 jobPreempted 1.27 -target 2.27
+plot 269 jobResumed 2.27
+plot 269 jobCompleted 2.27
+plot 269 jobPreempted 2.27 -target 63.0
+plot 269 jobResumed 63.0
+plot 277 jobArrived 2.28 2
+plot 277 jobResumed 2.28
+plot 278 jobArrived 1.28 1
+plot 278 jobResumed 1.28
+plot 279 jobCompleted 1.28
+plot 279 jobPreempted 1.28 -target 2.28
+plot 279 jobResumed 2.28
+plot 279 jobCompleted 2.28
+plot 279 jobPreempted 2.28 -target 63.0
+plot 279 jobResumed 63.0
+plot 287 jobArrived 2.29 2
+plot 287 jobResumed 2.29
+plot 288 jobArrived 1.29 1
+plot 288 jobResumed 1.29
+plot 289 jobCompleted 1.29
+plot 289 jobPreempted 1.29 -target 2.29
+plot 289 jobResumed 2.29
+plot 289 jobCompleted 2.29
+plot 289 jobPreempted 2.29 -target 63.0
+plot 289 jobResumed 63.0
+plot 297 jobArrived 2.30 2
+plot 297 jobResumed 2.30
+plot 298 jobArrived 1.30 1
+plot 298 jobResumed 1.30
+plot 299 jobCompleted 1.30
+plot 299 jobPreempted 1.30 -target 2.30
+plot 299 jobResumed 2.30
+plot 299 jobCompleted 2.30
+plot 299 jobPreempted 2.30 -target 63.0
+plot 299 jobResumed 63.0
+plot 307 jobArrived 2.31 2
+plot 307 jobPreempted 0.0 -target 2.30
+plot 307 jobResumed 2.30
+plot 307 jobResumed 2.31
+plot 308 jobArrived 1.31 1
+plot 308 jobResumed 1.31
+plot 309 jobCompleted 1.31
+plot 309 jobPreempted 1.31 -target 2.31
+plot 309 jobResumed 2.31
+plot 309 jobCompleted 2.31
+plot 309 jobPreempted 2.31 -target 63.0
+plot 309 jobResumed 63.0
+plot 317 jobArrived 2.32 2
+plot 317 jobResumed 2.32
+plot 318 jobArrived 1.32 1
+plot 318 jobResumed 1.32
+plot 319 jobCompleted 1.32
+plot 319 jobPreempted 1.32 -target 2.32
+plot 319 jobResumed 2.32
+plot 319 jobCompleted 2.32
+plot 319 jobPreempted 2.32 -target 63.0
+plot 319 jobResumed 63.0
+plot 327 jobArrived 2.33 2
+plot 327 jobResumed 2.33
+plot 328 jobArrived 1.33 1
+plot 328 jobResumed 1.33
+plot 329 jobCompleted 1.33
+plot 329 jobPreempted 1.33 -target 2.33
+plot 329 jobResumed 2.33
+plot 329 jobCompleted 2.33
+plot 329 jobPreempted 2.33 -target 63.0
+plot 329 jobResumed 63.0
+plot 337 jobArrived 2.34 2
+plot 337 jobResumed 2.34
+plot 338 jobArrived 1.34 1
+plot 338 jobResumed 1.34
+plot 339 jobCompleted 1.34
+plot 339 jobPreempted 1.34 -target 2.34
+plot 339 jobResumed 2.34
+plot 339 jobCompleted 2.34
+plot 339 jobPreempted 2.34 -target 63.0
+plot 339 jobResumed 63.0
+plot 347 jobArrived 2.35 2
+plot 347 jobResumed 2.35
+plot 348 jobArrived 1.35 1
+plot 348 jobResumed 1.35
+plot 349 jobCompleted 1.35
+plot 349 jobPreempted 1.35 -target 2.35
+plot 349 jobResumed 2.35
+plot 349 jobCompleted 2.35
+plot 349 jobPreempted 2.35 -target 63.0
+plot 349 jobResumed 63.0
+plot 357 jobArrived 2.36 2
+plot 357 jobPreempted 0.0 -target 2.35
+plot 357 jobResumed 2.35
+plot 357 jobResumed 2.36
+plot 358 jobArrived 1.36 1
+plot 358 jobResumed 1.36
+plot 359 jobCompleted 1.36
+plot 359 jobPreempted 1.36 -target 2.36
+plot 359 jobResumed 2.36
+plot 359 jobCompleted 2.36
+plot 359 jobPreempted 2.36 -target 63.0
+plot 359 jobResumed 63.0
+plot 367 jobArrived 2.37 2
+plot 367 jobResumed 2.37
+plot 368 jobArrived 1.37 1
+plot 368 jobResumed 1.37
+plot 369 jobCompleted 1.37
+plot 369 jobPreempted 1.37 -target 2.37
+plot 369 jobResumed 2.37
+plot 369 jobCompleted 2.37
+plot 369 jobPreempted 2.37 -target 63.0
+plot 369 jobResumed 63.0
+plot 377 jobArrived 2.38 2
+plot 377 jobResumed 2.38
+plot 378 jobArrived 1.38 1
+plot 378 jobResumed 1.38
+plot 379 jobCompleted 1.38
+plot 379 jobPreempted 1.38 -target 2.38
+plot 379 jobResumed 2.38
+plot 379 jobCompleted 2.38
+plot 379 jobPreempted 2.38 -target 63.0
+plot 379 jobResumed 63.0
+plot 387 jobArrived 2.39 2
+plot 387 jobResumed 2.39
+plot 388 jobArrived 1.39 1
+plot 388 jobResumed 1.39
+plot 389 jobCompleted 1.39
+plot 389 jobPreempted 1.39 -target 2.39
+plot 389 jobResumed 2.39
+plot 389 jobCompleted 2.39
+plot 389 jobPreempted 2.39 -target 63.0
+plot 389 jobResumed 63.0
+plot 397 jobArrived 2.40 2
+plot 397 jobResumed 2.40
+plot 398 jobArrived 1.40 1
+plot 398 jobResumed 1.40
+plot 399 jobCompleted 1.40
+plot 399 jobPreempted 1.40 -target 2.40
+plot 399 jobResumed 2.40
+plot 399 jobCompleted 2.40
+plot 399 jobPreempted 2.40 -target 63.0
+plot 399 jobResumed 63.0
+plot 407 jobArrived 2.41 2
+plot 407 jobPreempted 0.0 -target 2.40
+plot 407 jobResumed 2.40
+plot 407 jobResumed 2.41
+plot 408 jobArrived 1.41 1
+plot 408 jobResumed 1.41
+plot 409 jobCompleted 1.41
+plot 409 jobPreempted 1.41 -target 2.41
+plot 409 jobResumed 2.41
+plot 409 jobCompleted 2.41
+plot 409 jobPreempted 2.41 -target 63.0
+plot 409 jobResumed 63.0
+plot 417 jobArrived 2.42 2
+plot 417 jobResumed 2.42
+plot 418 jobArrived 1.42 1
+plot 418 jobResumed 1.42
+plot 419 jobCompleted 1.42
+plot 419 jobPreempted 1.42 -target 2.42
+plot 419 jobResumed 2.42
+plot 419 jobCompleted 2.42
+plot 419 jobPreempted 2.42 -target 63.0
+plot 419 jobResumed 63.0
+plot 427 jobArrived 2.43 2
+plot 427 jobResumed 2.43
+plot 428 jobArrived 1.43 1
+plot 428 jobResumed 1.43
+plot 429 jobCompleted 1.43
+plot 429 jobPreempted 1.43 -target 2.43
+plot 429 jobResumed 2.43
+plot 429 jobCompleted 2.43
+plot 429 jobPreempted 2.43 -target 63.0
+plot 429 jobResumed 63.0
+plot 437 jobArrived 2.44 2
+plot 437 jobResumed 2.44
+plot 438 jobArrived 1.44 1
+plot 438 jobResumed 1.44
+plot 439 jobCompleted 1.44
+plot 439 jobPreempted 1.44 -target 2.44
+plot 439 jobResumed 2.44
+plot 439 jobCompleted 2.44
+plot 439 jobPreempted 2.44 -target 63.0
+plot 439 jobResumed 63.0
+plot 447 jobArrived 2.45 2
+plot 447 jobResumed 2.45
+plot 448 jobArrived 1.45 1
+plot 448 jobResumed 1.45
+plot 449 jobCompleted 1.45
+plot 449 jobPreempted 1.45 -target 2.45
+plot 449 jobResumed 2.45
+plot 449 jobCompleted 2.45
+plot 449 jobPreempted 2.45 -target 63.0
+plot 449 jobResumed 63.0
+plot 457 jobArrived 2.46 2
+plot 457 jobPreempted 0.0 -target 2.45
+plot 457 jobResumed 2.45
+plot 457 jobResumed 2.46
+plot 458 jobArrived 1.46 1
+plot 458 jobResumed 1.46
+plot 459 jobCompleted 1.46
+plot 459 jobPreempted 1.46 -target 2.46
+plot 459 jobResumed 2.46
+plot 459 jobCompleted 2.46
+plot 459 jobPreempted 2.46 -target 63.0
+plot 459 jobResumed 63.0
+plot 467 jobArrived 2.47 2
+plot 467 jobResumed 2.47
+plot 468 jobArrived 1.47 1
+plot 468 jobResumed 1.47
+plot 469 jobCompleted 1.47
+plot 469 jobPreempted 1.47 -target 2.47
+plot 469 jobResumed 2.47
+plot 469 jobCompleted 2.47
+plot 469 jobPreempted 2.47 -target 63.0
+plot 469 jobResumed 63.0
+plot 477 jobArrived 2.48 2
+plot 477 jobResumed 2.48
+plot 478 jobArrived 1.48 1
+plot 478 jobResumed 1.48
+plot 479 jobCompleted 1.48
+plot 479 jobPreempted 1.48 -target 2.48
+plot 479 jobResumed 2.48
+plot 479 jobCompleted 2.48
+plot 479 jobPreempted 2.48 -target 63.0
+plot 479 jobResumed 63.0
+plot 487 jobArrived 2.49 2
+plot 487 jobResumed 2.49
+plot 488 jobArrived 1.49 1
+plot 488 jobResumed 1.49
+plot 489 jobCompleted 1.49
+plot 489 jobPreempted 1.49 -target 2.49
+plot 489 jobResumed 2.49
+plot 489 jobCompleted 2.49
+plot 489 jobPreempted 2.49 -target 63.0
+plot 489 jobResumed 63.0
+plot 497 jobArrived 2.50 2
+plot 497 jobResumed 2.50
+plot 498 jobArrived 1.50 1
+plot 498 jobResumed 1.50
+plot 499 jobCompleted 1.50
+plot 499 jobPreempted 1.50 -target 2.50
+plot 499 jobResumed 2.50
+plot 499 jobCompleted 2.50
+plot 499 jobPreempted 2.50 -target 63.0
+plot 499 jobResumed 63.0
+plot 507 jobArrived 2.51 2
+plot 507 jobPreempted 0.0 -target 2.50
+plot 507 jobResumed 2.50
+plot 507 jobResumed 2.51
+plot 508 jobArrived 1.51 1
+plot 508 jobResumed 1.51
+plot 509 jobCompleted 1.51
+plot 509 jobPreempted 1.51 -target 2.51
+plot 509 jobResumed 2.51
+plot 509 jobCompleted 2.51
+plot 509 jobPreempted 2.51 -target 63.0
+plot 509 jobResumed 63.0
+plot 517 jobArrived 2.52 2
+plot 517 jobResumed 2.52
+plot 518 jobArrived 1.52 1
+plot 518 jobResumed 1.52
+plot 519 jobCompleted 1.52
+plot 519 jobPreempted 1.52 -target 2.52
+plot 519 jobResumed 2.52
+plot 519 jobCompleted 2.52
+plot 519 jobPreempted 2.52 -target 63.0
+plot 519 jobResumed 63.0
+plot 527 jobArrived 2.53 2
+plot 527 jobResumed 2.53
+plot 528 jobArrived 1.53 1
+plot 528 jobResumed 1.53
+plot 529 jobCompleted 1.53
+plot 529 jobPreempted 1.53 -target 2.53
+plot 529 jobResumed 2.53
+plot 529 jobCompleted 2.53
+plot 529 jobPreempted 2.53 -target 63.0
+plot 529 jobResumed 63.0
+plot 537 jobArrived 2.54 2
+plot 537 jobResumed 2.54
+plot 538 jobArrived 1.54 1
+plot 538 jobResumed 1.54
+plot 539 jobCompleted 1.54
+plot 539 jobPreempted 1.54 -target 2.54
+plot 539 jobResumed 2.54
+plot 539 jobCompleted 2.54
+plot 539 jobPreempted 2.54 -target 63.0
+plot 539 jobResumed 63.0
+plot 547 jobArrived 2.55 2
+plot 547 jobResumed 2.55
+plot 548 jobArrived 1.55 1
+plot 548 jobResumed 1.55
+plot 549 jobCompleted 1.55
+plot 549 jobPreempted 1.55 -target 2.55
+plot 549 jobResumed 2.55
+plot 549 jobCompleted 2.55
+plot 549 jobPreempted 2.55 -target 63.0
+plot 549 jobResumed 63.0
+plot 557 jobArrived 2.56 2
+plot 557 jobPreempted 0.0 -target 2.55
+plot 557 jobResumed 2.55
+plot 557 jobResumed 2.56
+plot 558 jobArrived 1.56 1
+plot 558 jobResumed 1.56
+plot 559 jobCompleted 1.56
+plot 559 jobPreempted 1.56 -target 2.56
+plot 559 jobResumed 2.56
+plot 559 jobCompleted 2.56
+plot 559 jobPreempted 2.56 -target 63.0
+plot 559 jobResumed 63.0
+plot 567 jobArrived 2.57 2
+plot 567 jobResumed 2.57
+plot 568 jobArrived 1.57 1
+plot 568 jobResumed 1.57
+plot 569 jobCompleted 1.57
+plot 569 jobPreempted 1.57 -target 2.57
+plot 569 jobResumed 2.57
+plot 569 jobCompleted 2.57
+plot 569 jobPreempted 2.57 -target 63.0
+plot 569 jobResumed 63.0
+plot 577 jobArrived 2.58 2
+plot 577 jobResumed 2.58
+plot 578 jobArrived 1.58 1
+plot 578 jobResumed 1.58
+plot 579 jobCompleted 1.58
+plot 579 jobPreempted 1.58 -target 2.58
+plot 579 jobResumed 2.58
+plot 579 jobCompleted 2.58
+plot 579 jobPreempted 2.58 -target 63.0
+plot 579 jobResumed 63.0
+plot 587 jobArrived 2.59 2
+plot 587 jobResumed 2.59
+plot 588 jobArrived 1.59 1
+plot 588 jobResumed 1.59
+plot 589 jobCompleted 1.59
+plot 589 jobPreempted 1.59 -target 2.59
+plot 589 jobResumed 2.59
+plot 589 jobCompleted 2.59
+plot 589 jobPreempted 2.59 -target 63.0
+plot 589 jobResumed 63.0
+plot 597 jobArrived 2.60 2
+plot 597 jobResumed 2.60
+plot 598 jobArrived 1.60 1
+plot 598 jobResumed 1.60
+plot 599 jobCompleted 1.60
+plot 599 jobPreempted 1.60 -target 2.60
+plot 599 jobResumed 2.60
+plot 599 jobCompleted 2.60
+plot 599 jobPreempted 2.60 -target 63.0
+plot 599 jobResumed 63.0
+plot 607 jobArrived 2.61 2
+plot 607 jobPreempted 0.0 -target 2.60
+plot 607 jobResumed 2.60
+plot 607 jobResumed 2.61
+plot 608 jobArrived 1.61 1
+plot 608 jobResumed 1.61
+plot 609 jobCompleted 1.61
+plot 609 jobPreempted 1.61 -target 2.61
+plot 609 jobResumed 2.61
+plot 609 jobCompleted 2.61
+plot 609 jobPreempted 2.61 -target 63.0
+plot 609 jobResumed 63.0
+plot 617 jobArrived 2.62 2
+plot 617 jobResumed 2.62
+plot 618 jobArrived 1.62 1
+plot 618 jobResumed 1.62
+plot 619 jobCompleted 1.62
+plot 619 jobPreempted 1.62 -target 2.62
+plot 619 jobResumed 2.62
+plot 619 jobCompleted 2.62
+plot 619 jobPreempted 2.62 -target 63.0
+plot 619 jobResumed 63.0
+plot 627 jobArrived 2.63 2
+plot 627 jobResumed 2.63
+plot 628 jobArrived 1.63 1
+plot 628 jobResumed 1.63
+plot 629 jobCompleted 1.63
+plot 629 jobPreempted 1.63 -target 2.63
+plot 629 jobResumed 2.63
+plot 629 jobCompleted 2.63
+plot 629 jobPreempted 2.63 -target 63.0
+plot 629 jobResumed 63.0
+plot 637 jobArrived 2.64 2
+plot 637 jobResumed 2.64
+plot 638 jobArrived 1.64 1
+plot 638 jobResumed 1.64
+plot 639 jobCompleted 1.64
+plot 639 jobPreempted 1.64 -target 2.64
+plot 639 jobResumed 2.64
+plot 639 jobCompleted 2.64
+plot 639 jobPreempted 2.64 -target 63.0
+plot 639 jobResumed 63.0
+plot 647 jobArrived 2.65 2
+plot 647 jobResumed 2.65
+plot 648 jobArrived 1.65 1
+plot 648 jobResumed 1.65
+plot 649 jobCompleted 1.65
+plot 649 jobPreempted 1.65 -target 2.65
+plot 649 jobResumed 2.65
+plot 649 jobCompleted 2.65
+plot 649 jobPreempted 2.65 -target 63.0
+plot 649 jobResumed 63.0
+plot 657 jobArrived 2.66 2
+plot 657 jobPreempted 0.0 -target 2.65
+plot 657 jobResumed 2.65
+plot 657 jobResumed 2.66
+plot 658 jobArrived 1.66 1
+plot 658 jobResumed 1.66
+plot 659 jobCompleted 1.66
+plot 659 jobPreempted 1.66 -target 2.66
+plot 659 jobResumed 2.66
+plot 659 jobCompleted 2.66
+plot 659 jobPreempted 2.66 -target 63.0
+plot 659 jobResumed 63.0
+plot 667 jobArrived 2.67 2
+plot 667 jobResumed 2.67
+plot 668 jobArrived 1.67 1
+plot 668 jobResumed 1.67
+plot 669 jobCompleted 1.67
+plot 669 jobPreempted 1.67 -target 2.67
+plot 669 jobResumed 2.67
+plot 669 jobCompleted 2.67
+plot 669 jobPreempted 2.67 -target 63.0
+plot 669 jobResumed 63.0
+plot 677 jobArrived 2.68 2
+plot 677 jobResumed 2.68
+plot 678 jobArrived 1.68 1
+plot 678 jobResumed 1.68
+plot 679 jobCompleted 1.68
+plot 679 jobPreempted 1.68 -target 2.68
+plot 679 jobResumed 2.68
+plot 679 jobCompleted 2.68
+plot 679 jobPreempted 2.68 -target 63.0
+plot 679 jobResumed 63.0
+plot 687 jobArrived 2.69 2
+plot 687 jobResumed 2.69
+plot 688 jobArrived 1.69 1
+plot 688 jobResumed 1.69
+plot 689 jobCompleted 1.69
+plot 689 jobPreempted 1.69 -target 2.69
+plot 689 jobResumed 2.69
+plot 689 jobCompleted 2.69
+plot 689 jobPreempted 2.69 -target 63.0
+plot 689 jobResumed 63.0
+plot 697 jobArrived 2.70 2
+plot 697 jobResumed 2.70
+plot 698 jobArrived 1.70 1
+plot 698 jobResumed 1.70
+plot 699 jobCompleted 1.70
+plot 699 jobPreempted 1.70 -target 2.70
+plot 699 jobResumed 2.70
+plot 699 jobCompleted 2.70
+plot 699 jobPreempted 2.70 -target 63.0
+plot 699 jobResumed 63.0
+plot 707 jobArrived 2.71 2
+plot 707 jobPreempted 0.0 -target 2.70
+plot 707 jobResumed 2.70
+plot 707 jobResumed 2.71
+plot 708 jobArrived 1.71 1
+plot 708 jobResumed 1.71
+plot 709 jobCompleted 1.71
+plot 709 jobPreempted 1.71 -target 2.71
+plot 709 jobResumed 2.71
+plot 709 jobCompleted 2.71
+plot 709 jobPreempted 2.71 -target 63.0
+plot 709 jobResumed 63.0
+plot 717 jobArrived 2.72 2
+plot 717 jobResumed 2.72
+plot 718 jobArrived 1.72 1
+plot 718 jobResumed 1.72
+plot 719 jobCompleted 1.72
+plot 719 jobPreempted 1.72 -target 2.72
+plot 719 jobResumed 2.72
+plot 719 jobCompleted 2.72
+plot 719 jobPreempted 2.72 -target 63.0
+plot 719 jobResumed 63.0
+plot 727 jobArrived 2.73 2
+plot 727 jobResumed 2.73
+plot 728 jobArrived 1.73 1
+plot 728 jobResumed 1.73
+plot 729 jobCompleted 1.73
+plot 729 jobPreempted 1.73 -target 2.73
+plot 729 jobResumed 2.73
+plot 729 jobCompleted 2.73
+plot 729 jobPreempted 2.73 -target 63.0
+plot 729 jobResumed 63.0
+plot 737 jobArrived 2.74 2
+plot 737 jobResumed 2.74
+plot 738 jobArrived 1.74 1
+plot 738 jobResumed 1.74
+plot 739 jobCompleted 1.74
+plot 739 jobPreempted 1.74 -target 2.74
+plot 739 jobResumed 2.74
+plot 739 jobCompleted 2.74
+plot 739 jobPreempted 2.74 -target 63.0
+plot 739 jobResumed 63.0
+plot 747 jobArrived 2.75 2
+plot 747 jobResumed 2.75
+plot 748 jobArrived 1.75 1
+plot 748 jobResumed 1.75
+plot 749 jobCompleted 1.75
+plot 749 jobPreempted 1.75 -target 2.75
+plot 749 jobResumed 2.75
+plot 749 jobCompleted 2.75
+plot 749 jobPreempted 2.75 -target 63.0
+plot 749 jobResumed 63.0
+plot 757 jobArrived 2.76 2
+plot 757 jobPreempted 0.0 -target 2.75
+plot 757 jobResumed 2.75
+plot 757 jobResumed 2.76
+plot 758 jobArrived 1.76 1
+plot 758 jobResumed 1.76
+plot 759 jobCompleted 1.76
+plot 759 jobPreempted 1.76 -target 2.76
+plot 759 jobResumed 2.76
+plot 759 jobCompleted 2.76
+plot 759 jobPreempted 2.76 -target 63.0
+plot 759 jobResumed 63.0
+plot 767 jobArrived 2.77 2
+plot 767 jobResumed 2.77
+plot 768 jobArrived 1.77 1
+plot 768 jobResumed 1.77
+plot 769 jobCompleted 1.77
+plot 769 jobPreempted 1.77 -target 2.77
+plot 769 jobResumed 2.77
+plot 769 jobCompleted 2.77
+plot 769 jobPreempted 2.77 -target 63.0
+plot 769 jobResumed 63.0
+plot 777 jobArrived 2.78 2
+plot 777 jobResumed 2.78
+plot 778 jobArrived 1.78 1
+plot 778 jobResumed 1.78
+plot 779 jobCompleted 1.78
+plot 779 jobPreempted 1.78 -target 2.78
+plot 779 jobResumed 2.78
+plot 779 jobCompleted 2.78
+plot 779 jobPreempted 2.78 -target 63.0
+plot 779 jobResumed 63.0
+plot 787 jobArrived 2.79 2
+plot 787 jobResumed 2.79
+plot 788 jobArrived 1.79 1
+plot 788 jobResumed 1.79
+plot 789 jobCompleted 1.79
+plot 789 jobPreempted 1.79 -target 2.79
+plot 789 jobResumed 2.79
+plot 789 jobCompleted 2.79
+plot 789 jobPreempted 2.79 -target 63.0
+plot 789 jobResumed 63.0
+plot 797 jobArrived 2.80 2
+plot 797 jobResumed 2.80
+plot 798 jobArrived 1.80 1
+plot 798 jobResumed 1.80
+plot 799 jobCompleted 1.80
+plot 799 jobPreempted 1.80 -target 2.80
+plot 799 jobResumed 2.80
+plot 799 jobCompleted 2.80
+plot 799 jobPreempted 2.80 -target 63.0
+plot 799 jobResumed 63.0
+plot 807 jobArrived 2.81 2
+plot 807 jobPreempted 0.0 -target 2.80
+plot 807 jobResumed 2.80
+plot 807 jobResumed 2.81
+plot 808 jobArrived 1.81 1
+plot 808 jobResumed 1.81
+plot 809 jobCompleted 1.81
+plot 809 jobPreempted 1.81 -target 2.81
+plot 809 jobResumed 2.81
+plot 809 jobCompleted 2.81
+plot 809 jobPreempted 2.81 -target 63.0
+plot 809 jobResumed 63.0
+plot 817 jobArrived 2.82 2
+plot 817 jobResumed 2.82
+plot 818 jobArrived 1.82 1
+plot 818 jobResumed 1.82
+plot 819 jobCompleted 1.82
+plot 819 jobPreempted 1.82 -target 2.82
+plot 819 jobResumed 2.82
+plot 819 jobCompleted 2.82
+plot 819 jobPreempted 2.82 -target 63.0
+plot 819 jobResumed 63.0
+plot 827 jobArrived 2.83 2
+plot 827 jobResumed 2.83
+plot 828 jobArrived 1.83 1
+plot 828 jobResumed 1.83
+plot 829 jobCompleted 1.83
+plot 829 jobPreempted 1.83 -target 2.83
+plot 829 jobResumed 2.83
+plot 829 jobCompleted 2.83
+plot 829 jobPreempted 2.83 -target 63.0
+plot 829 jobResumed 63.0
+plot 837 jobArrived 2.84 2
+plot 837 jobResumed 2.84
+plot 838 jobArrived 1.84 1
+plot 838 jobResumed 1.84
+plot 839 jobCompleted 1.84
+plot 839 jobPreempted 1.84 -target 2.84
+plot 839 jobResumed 2.84
+plot 839 jobCompleted 2.84
+plot 839 jobPreempted 2.84 -target 63.0
+plot 839 jobResumed 63.0
+plot 847 jobArrived 2.85 2
+plot 847 jobResumed 2.85
+plot 848 jobArrived 1.85 1
+plot 848 jobResumed 1.85
+plot 849 jobCompleted 1.85
+plot 849 jobPreempted 1.85 -target 2.85
+plot 849 jobResumed 2.85
+plot 849 jobCompleted 2.85
+plot 849 jobPreempted 2.85 -target 63.0
+plot 849 jobResumed 63.0
+plot 857 jobArrived 2.86 2
+plot 857 jobPreempted 0.0 -target 2.85
+plot 857 jobResumed 2.85
+plot 857 jobResumed 2.86
+plot 858 jobArrived 1.86 1
+plot 858 jobResumed 1.86
+plot 859 jobCompleted 1.86
+plot 859 jobPreempted 1.86 -target 2.86
+plot 859 jobResumed 2.86
+plot 859 jobCompleted 2.86
+plot 859 jobPreempted 2.86 -target 63.0
+plot 859 jobResumed 63.0
+plot 867 jobArrived 2.87 2
+plot 867 jobResumed 2.87
+plot 868 jobArrived 1.87 1
+plot 868 jobResumed 1.87
+plot 869 jobCompleted 1.87
+plot 869 jobPreempted 1.87 -target 2.87
+plot 869 jobResumed 2.87
+plot 869 jobCompleted 2.87
+plot 869 jobPreempted 2.87 -target 63.0
+plot 869 jobResumed 63.0
+plot 877 jobArrived 2.88 2
+plot 877 jobResumed 2.88
+plot 878 jobArrived 1.88 1
+plot 878 jobResumed 1.88
+plot 879 jobCompleted 1.88
+plot 879 jobPreempted 1.88 -target 2.88
+plot 879 jobResumed 2.88
+plot 879 jobCompleted 2.88
+plot 879 jobPreempted 2.88 -target 63.0
+plot 879 jobResumed 63.0
+plot 887 jobArrived 2.89 2
+plot 887 jobResumed 2.89
+plot 888 jobArrived 1.89 1
+plot 888 jobResumed 1.89
+plot 889 jobCompleted 1.89
+plot 889 jobPreempted 1.89 -target 2.89
+plot 889 jobResumed 2.89
+plot 889 jobCompleted 2.89
+plot 889 jobPreempted 2.89 -target 63.0
+plot 889 jobResumed 63.0
+plot 897 jobArrived 2.90 2
+plot 897 jobResumed 2.90
+plot 898 jobArrived 1.90 1
+plot 898 jobResumed 1.90
+plot 899 jobCompleted 1.90
+plot 899 jobPreempted 1.90 -target 2.90
+plot 899 jobResumed 2.90
+plot 899 jobCompleted 2.90
+plot 899 jobPreempted 2.90 -target 63.0
+plot 899 jobResumed 63.0
+plot 907 jobArrived 2.91 2
+plot 907 jobPreempted 0.0 -target 2.90
+plot 907 jobResumed 2.90
+plot 907 jobResumed 2.91
+plot 908 jobArrived 1.91 1
+plot 908 jobResumed 1.91
+plot 909 jobCompleted 1.91
+plot 909 jobPreempted 1.91 -target 2.91
+plot 909 jobResumed 2.91
+plot 909 jobCompleted 2.91
+plot 909 jobPreempted 2.91 -target 63.0
+plot 909 jobResumed 63.0
+plot 917 jobArrived 2.92 2
+plot 917 jobResumed 2.92
+plot 918 jobArrived 1.92 1
+plot 918 jobResumed 1.92
+plot 919 jobCompleted 1.92
+plot 919 jobPreempted 1.92 -target 2.92
+plot 919 jobResumed 2.92
+plot 919 jobCompleted 2.92
+plot 919 jobPreempted 2.92 -target 63.0
+plot 919 jobResumed 63.0
+plot 927 jobArrived 2.93 2
+plot 927 jobResumed 2.93
+plot 928 jobArrived 1.93 1
+plot 928 jobResumed 1.93
+plot 929 jobCompleted 1.93
+plot 929 jobPreempted 1.93 -target 2.93
+plot 929 jobResumed 2.93
+plot 929 jobCompleted 2.93
+plot 929 jobPreempted 2.93 -target 63.0
+plot 929 jobResumed 63.0
+plot 937 jobArrived 2.94 2
+plot 937 jobResumed 2.94
+plot 938 jobArrived 1.94 1
+plot 938 jobResumed 1.94
+plot 939 jobCompleted 1.94
+plot 939 jobPreempted 1.94 -target 2.94
+plot 939 jobResumed 2.94
+plot 939 jobCompleted 2.94
+plot 939 jobPreempted 2.94 -target 63.0
+plot 939 jobResumed 63.0
+plot 947 jobArrived 2.95 2
+plot 947 jobResumed 2.95
+plot 948 jobArrived 1.95 1
+plot 948 jobResumed 1.95
+plot 949 jobCompleted 1.95
+plot 949 jobPreempted 1.95 -target 2.95
+plot 949 jobResumed 2.95
+plot 949 jobCompleted 2.95
+plot 949 jobPreempted 2.95 -target 63.0
+plot 949 jobResumed 63.0
+plot 957 jobArrived 2.96 2
+plot 957 jobPreempted 0.0 -target 2.95
+plot 957 jobResumed 2.95
+plot 957 jobResumed 2.96
+plot 958 jobArrived 1.96 1
+plot 958 jobResumed 1.96
+plot 959 jobCompleted 1.96
+plot 959 jobPreempted 1.96 -target 2.96
+plot 959 jobResumed 2.96
+plot 959 jobCompleted 2.96
+plot 959 jobPreempted 2.96 -target 63.0
+plot 959 jobResumed 63.0
+plot 967 jobArrived 2.97 2
+plot 967 jobResumed 2.97
+plot 968 jobArrived 1.97 1
+plot 968 jobResumed 1.97
+plot 969 jobCompleted 1.97
+plot 969 jobPreempted 1.97 -target 2.97
+plot 969 jobResumed 2.97
+plot 969 jobCompleted 2.97
+plot 969 jobPreempted 2.97 -target 63.0
+plot 969 jobResumed 63.0
+plot 977 jobArrived 2.98 2
+plot 977 jobResumed 2.98
+plot 978 jobArrived 1.98 1
+plot 978 jobResumed 1.98
+plot 979 jobCompleted 1.98
+plot 979 jobPreempted 1.98 -target 2.98
+plot 979 jobResumed 2.98
+plot 979 jobCompleted 2.98
+plot 979 jobPreempted 2.98 -target 63.0
+plot 979 jobResumed 63.0
+plot 987 jobArrived 2.99 2
+plot 987 jobResumed 2.99
+plot 988 jobArrived 1.99 1
+plot 988 jobResumed 1.99
+plot 989 jobCompleted 1.99
+plot 989 jobPreempted 1.99 -target 2.99
+plot 989 jobResumed 2.99
+plot 989 jobCompleted 2.99
+plot 989 jobPreempted 2.99 -target 63.0
+plot 989 jobResumed 63.0
+plot 997 jobArrived 2.100 2
+plot 997 jobResumed 2.100
+plot 998 jobArrived 1.100 1
+plot 998 jobResumed 1.100
+plot 999 jobCompleted 1.100
+plot 999 jobPreempted 1.100 -target 2.100
+plot 999 jobResumed 2.100
+plot 999 jobCompleted 2.100
+plot 999 jobPreempted 2.100 -target 63.0
+plot 999 jobResumed 63.0
+plot 1007 jobArrived 2.101 2
+plot 1007 jobPreempted 0.0 -target 2.100
+plot 1007 jobResumed 2.100
+plot 1007 jobResumed 2.101
+plot 1008 jobArrived 1.101 1
+plot 1008 jobResumed 1.101
+plot 1009 jobCompleted 1.101
+plot 1009 jobPreempted 1.101 -target 2.101
+plot 1009 jobResumed 2.101
+plot 1009 jobCompleted 2.101
+plot 1009 jobPreempted 2.101 -target 63.0
+plot 1009 jobResumed 63.0
+plot 1017 jobArrived 2.102 2
+plot 1017 jobResumed 2.102
+plot 1018 jobArrived 1.102 1
+plot 1018 jobResumed 1.102
+plot 1019 jobCompleted 1.102
+plot 1019 jobPreempted 1.102 -target 2.102
+plot 1019 jobResumed 2.102
+plot 1019 jobCompleted 2.102
+plot 1019 jobPreempted 2.102 -target 63.0
+plot 1019 jobResumed 63.0
+plot 1027 jobArrived 2.103 2
+plot 1027 jobResumed 2.103
+plot 1028 jobArrived 1.103 1
+plot 1028 jobResumed 1.103
+plot 1029 jobCompleted 1.103
+plot 1029 jobPreempted 1.103 -target 2.103
+plot 1029 jobResumed 2.103
+plot 1029 jobCompleted 2.103
+plot 1029 jobPreempted 2.103 -target 63.0
+plot 1029 jobResumed 63.0
+plot 1037 jobArrived 2.104 2
+plot 1037 jobResumed 2.104
+plot 1038 jobArrived 1.104 1
+plot 1038 jobResumed 1.104
+plot 1039 jobCompleted 1.104
+plot 1039 jobPreempted 1.104 -target 2.104
+plot 1039 jobResumed 2.104
+plot 1039 jobCompleted 2.104
+plot 1039 jobPreempted 2.104 -target 63.0
+plot 1039 jobResumed 63.0
+plot 1047 jobArrived 2.105 2
+plot 1047 jobResumed 2.105
+plot 1048 jobArrived 1.105 1
+plot 1048 jobResumed 1.105
+plot 1049 jobCompleted 1.105
+plot 1049 jobPreempted 1.105 -target 2.105
+plot 1049 jobResumed 2.105
+plot 1049 jobCompleted 2.105
+plot 1049 jobPreempted 2.105 -target 63.0
+plot 1049 jobResumed 63.0
+plot 1057 jobArrived 2.106 2
+plot 1057 jobPreempted 0.0 -target 2.105
+plot 1057 jobResumed 2.105
+plot 1057 jobResumed 2.106
+plot 1058 jobArrived 1.106 1
+plot 1058 jobResumed 1.106
+plot 1059 jobCompleted 1.106
+plot 1059 jobPreempted 1.106 -target 2.106
+plot 1059 jobResumed 2.106
+plot 1059 jobCompleted 2.106
+plot 1059 jobPreempted 2.106 -target 63.0
+plot 1059 jobResumed 63.0
+plot 1067 jobArrived 2.107 2
+plot 1067 jobResumed 2.107
+plot 1068 jobArrived 1.107 1
+plot 1068 jobResumed 1.107
+plot 1069 jobCompleted 1.107
+plot 1069 jobPreempted 1.107 -target 2.107
+plot 1069 jobResumed 2.107
+plot 1069 jobCompleted 2.107
+plot 1069 jobPreempted 2.107 -target 63.0
+plot 1069 jobResumed 63.0
+plot 1077 jobArrived 2.108 2
+plot 1077 jobResumed 2.108
+plot 1078 jobArrived 1.108 1
+plot 1078 jobResumed 1.108
+plot 1079 jobCompleted 1.108
+plot 1079 jobPreempted 1.108 -target 2.108
+plot 1079 jobResumed 2.108
+plot 1079 jobCompleted 2.108
+plot 1079 jobPreempted 2.108 -target 63.0
+plot 1079 jobResumed 63.0
+plot 1087 jobArrived 2.109 2
+plot 1087 jobResumed 2.109
+plot 1088 jobArrived 1.109 1
+plot 1088 jobResumed 1.109
+plot 1089 jobCompleted 1.109
+plot 1089 jobPreempted 1.109 -target 2.109
+plot 1089 jobResumed 2.109
+plot 1089 jobCompleted 2.109
+plot 1089 jobPreempted 2.109 -target 63.0
+plot 1089 jobResumed 63.0
+plot 1097 jobArrived 2.110 2
+plot 1097 jobResumed 2.110
+plot 1098 jobArrived 1.110 1
+plot 1098 jobResumed 1.110
+plot 1099 jobCompleted 1.110
+plot 1099 jobPreempted 1.110 -target 2.110
+plot 1099 jobResumed 2.110
+plot 1099 jobCompleted 2.110
+plot 1099 jobPreempted 2.110 -target 63.0
+plot 1099 jobResumed 63.0
+plot 1107 jobArrived 2.111 2
+plot 1107 jobPreempted 0.0 -target 2.110
+plot 1107 jobResumed 2.110
+plot 1107 jobResumed 2.111
+plot 1108 jobArrived 1.111 1
+plot 1108 jobResumed 1.111
+plot 1109 jobCompleted 1.111
+plot 1109 jobPreempted 1.111 -target 2.111
+plot 1109 jobResumed 2.111
+plot 1109 jobCompleted 2.111
+plot 1109 jobPreempted 2.111 -target 63.0
+plot 1109 jobResumed 63.0
+plot 1117 jobArrived 2.112 2
+plot 1117 jobResumed 2.112
+plot 1118 jobArrived 1.112 1
+plot 1118 jobResumed 1.112
+plot 1119 jobCompleted 1.112
+plot 1119 jobPreempted 1.112 -target 2.112
+plot 1119 jobResumed 2.112
+plot 1119 jobCompleted 2.112
+plot 1119 jobPreempted 2.112 -target 63.0
+plot 1119 jobResumed 63.0
+plot 1127 jobArrived 2.113 2
+plot 1127 jobResumed 2.113
+plot 1128 jobArrived 1.113 1
+plot 1128 jobResumed 1.113
+plot 1129 jobCompleted 1.113
+plot 1129 jobPreempted 1.113 -target 2.113
+plot 1129 jobResumed 2.113
+plot 1129 jobCompleted 2.113
+plot 1129 jobPreempted 2.113 -target 63.0
+plot 1129 jobResumed 63.0
+plot 1137 jobArrived 2.114 2
+plot 1137 jobResumed 2.114
+plot 1138 jobArrived 1.114 1
+plot 1138 jobResumed 1.114
+plot 1139 jobCompleted 1.114
+plot 1139 jobPreempted 1.114 -target 2.114
+plot 1139 jobResumed 2.114
+plot 1139 jobCompleted 2.114
+plot 1139 jobPreempted 2.114 -target 63.0
+plot 1139 jobResumed 63.0
+plot 1147 jobArrived 2.115 2
+plot 1147 jobResumed 2.115
+plot 1148 jobArrived 1.115 1
+plot 1148 jobResumed 1.115
+plot 1149 jobCompleted 1.115
+plot 1149 jobPreempted 1.115 -target 2.115
+plot 1149 jobResumed 2.115
+plot 1149 jobCompleted 2.115
+plot 1149 jobPreempted 2.115 -target 63.0
+plot 1149 jobResumed 63.0
+plot 1157 jobArrived 2.116 2
+plot 1157 jobPreempted 0.0 -target 2.115
+plot 1157 jobResumed 2.115
+plot 1157 jobResumed 2.116
+plot 1158 jobArrived 1.116 1
+plot 1158 jobResumed 1.116
+plot 1159 jobCompleted 1.116
+plot 1159 jobPreempted 1.116 -target 2.116
+plot 1159 jobResumed 2.116
+plot 1159 jobCompleted 2.116
+plot 1159 jobPreempted 2.116 -target 63.0
+plot 1159 jobResumed 63.0
+plot 1167 jobArrived 2.117 2
+plot 1167 jobResumed 2.117
+plot 1168 jobArrived 1.117 1
+plot 1168 jobResumed 1.117
+plot 1169 jobCompleted 1.117
+plot 1169 jobPreempted 1.117 -target 2.117
+plot 1169 jobResumed 2.117
+plot 1169 jobCompleted 2.117
+plot 1169 jobPreempted 2.117 -target 63.0
+plot 1169 jobResumed 63.0
+plot 1177 jobArrived 2.118 2
+plot 1177 jobResumed 2.118
+plot 1178 jobArrived 1.118 1
+plot 1178 jobResumed 1.118
+plot 1179 jobCompleted 1.118
+plot 1179 jobPreempted 1.118 -target 2.118
+plot 1179 jobResumed 2.118
+plot 1179 jobCompleted 2.118
+plot 1179 jobPreempted 2.118 -target 63.0
+plot 1179 jobResumed 63.0
+plot 1187 jobArrived 2.119 2
+plot 1187 jobResumed 2.119
+plot 1188 jobArrived 1.119 1
+plot 1188 jobResumed 1.119
+plot 1189 jobCompleted 1.119
+plot 1189 jobPreempted 1.119 -target 2.119
+plot 1189 jobResumed 2.119
+plot 1189 jobCompleted 2.119
+plot 1189 jobPreempted 2.119 -target 63.0
+plot 1189 jobResumed 63.0
+plot 1197 jobArrived 2.120 2
+plot 1197 jobResumed 2.120
+plot 1198 jobArrived 1.120 1
+plot 1198 jobResumed 1.120
+plot 1199 jobCompleted 1.120
+plot 1199 jobPreempted 1.120 -target 2.120
+plot 1199 jobResumed 2.120
+plot 1199 jobCompleted 2.120
+plot 1199 jobPreempted 2.120 -target 63.0
+plot 1199 jobResumed 63.0
+plot 1207 jobArrived 2.121 2
+plot 1207 jobPreempted 0.0 -target 2.120
+plot 1207 jobResumed 2.120
+plot 1207 jobResumed 2.121
+plot 1208 jobArrived 1.121 1
+plot 1208 jobResumed 1.121
+plot 1209 jobCompleted 1.121
+plot 1209 jobPreempted 1.121 -target 2.121
+plot 1209 jobResumed 2.121
+plot 1209 jobCompleted 2.121
+plot 1209 jobPreempted 2.121 -target 63.0
+plot 1209 jobResumed 63.0
+plot 1217 jobArrived 2.122 2
+plot 1217 jobResumed 2.122
+plot 1218 jobArrived 1.122 1
+plot 1218 jobResumed 1.122
+plot 1219 jobCompleted 1.122
+plot 1219 jobPreempted 1.122 -target 2.122
+plot 1219 jobResumed 2.122
+plot 1219 jobCompleted 2.122
+plot 1219 jobPreempted 2.122 -target 63.0
+plot 1219 jobResumed 63.0
+plot 1227 jobArrived 2.123 2
+plot 1227 jobResumed 2.123
+plot 1228 jobArrived 1.123 1
+plot 1228 jobResumed 1.123
+plot 1229 jobCompleted 1.123
+plot 1229 jobPreempted 1.123 -target 2.123
+plot 1229 jobResumed 2.123
+plot 1229 jobCompleted 2.123
+plot 1229 jobPreempted 2.123 -target 63.0
+plot 1229 jobResumed 63.0
+plot 1237 jobArrived 2.124 2
+plot 1237 jobResumed 2.124
+plot 1238 jobArrived 1.124 1
+plot 1238 jobResumed 1.124
+plot 1239 jobCompleted 1.124
+plot 1239 jobPreempted 1.124 -target 2.124
+plot 1239 jobResumed 2.124
+plot 1239 jobCompleted 2.124
+plot 1239 jobPreempted 2.124 -target 63.0
+plot 1239 jobResumed 63.0
+plot 1247 jobArrived 2.125 2
+plot 1247 jobResumed 2.125
+plot 1248 jobArrived 1.125 1
+plot 1248 jobResumed 1.125
+plot 1249 jobCompleted 1.125
+plot 1249 jobPreempted 1.125 -target 2.125
+plot 1249 jobResumed 2.125
+plot 1249 jobCompleted 2.125
+plot 1249 jobPreempted 2.125 -target 63.0
+plot 1249 jobResumed 63.0
+plot 1257 jobArrived 2.126 2
+plot 1257 jobPreempted 0.0 -target 2.125
+plot 1257 jobResumed 2.125
+plot 1257 jobResumed 2.126
+plot 1258 jobArrived 1.126 1
+plot 1258 jobResumed 1.126
+plot 1259 jobCompleted 1.126
+plot 1259 jobPreempted 1.126 -target 2.126
+plot 1259 jobResumed 2.126
+plot 1259 jobCompleted 2.126
+plot 1259 jobPreempted 2.126 -target 63.0
+plot 1259 jobResumed 63.0
+plot 1267 jobArrived 2.127 2
+plot 1267 jobResumed 2.127
+plot 1268 jobArrived 1.127 1
+plot 1268 jobResumed 1.127
+plot 1269 jobCompleted 1.127
+plot 1269 jobPreempted 1.127 -target 2.127
+plot 1269 jobResumed 2.127
+plot 1269 jobCompleted 2.127
+plot 1269 jobPreempted 2.127 -target 63.0
+plot 1269 jobResumed 63.0
+plot 1277 jobArrived 2.128 2
+plot 1277 jobResumed 2.128
+plot 1278 jobArrived 1.128 1
+plot 1278 jobResumed 1.128
+plot 1279 jobCompleted 1.128
+plot 1279 jobPreempted 1.128 -target 2.128
+plot 1279 jobResumed 2.128
+plot 1279 jobCompleted 2.128
+plot 1279 jobPreempted 2.128 -target 63.0
+plot 1279 jobResumed 63.0
+plot 1287 jobArrived 2.129 2
+plot 1287 jobResumed 2.129
+plot 1288 jobArrived 1.129 1
+plot 1288 jobResumed 1.129
+plot 1289 jobCompleted 1.129
+plot 1289 jobPreempted 1.129 -target 2.129
+plot 1289 jobResumed 2.129
+plot 1289 jobCompleted 2.129
+plot 1289 jobPreempted 2.129 -target 63.0
+plot 1289 jobResumed 63.0
+plot 1297 jobArrived 2.130 2
+plot 1297 jobResumed 2.130
+plot 1298 jobArrived 1.130 1
+plot 1298 jobResumed 1.130
+plot 1299 jobCompleted 1.130
+plot 1299 jobPreempted 1.130 -target 2.130
+plot 1299 jobResumed 2.130
+plot 1299 jobCompleted 2.130
+plot 1299 jobPreempted 2.130 -target 63.0
+plot 1299 jobResumed 63.0
+plot 1307 jobArrived 2.131 2
+plot 1307 jobPreempted 0.0 -target 2.130
+plot 1307 jobResumed 2.130
+plot 1307 jobResumed 2.131
+plot 1308 jobArrived 1.131 1
+plot 1308 jobResumed 1.131
+plot 1309 jobCompleted 1.131
+plot 1309 jobPreempted 1.131 -target 2.131
+plot 1309 jobResumed 2.131
+plot 1309 jobCompleted 2.131
+plot 1309 jobPreempted 2.131 -target 63.0
+plot 1309 jobResumed 63.0
+plot 1317 jobArrived 2.132 2
+plot 1317 jobResumed 2.132
+plot 1318 jobArrived 1.132 1
+plot 1318 jobResumed 1.132
+plot 1319 jobCompleted 1.132
+plot 1319 jobPreempted 1.132 -target 2.132
+plot 1319 jobResumed 2.132
+plot 1319 jobCompleted 2.132
+plot 1319 jobPreempted 2.132 -target 63.0
+plot 1319 jobResumed 63.0
+plot 1327 jobArrived 2.133 2
+plot 1327 jobResumed 2.133
+plot 1328 jobArrived 1.133 1
+plot 1328 jobResumed 1.133
+plot 1329 jobCompleted 1.133
+plot 1329 jobPreempted 1.133 -target 2.133
+plot 1329 jobResumed 2.133
+plot 1329 jobCompleted 2.133
+plot 1329 jobPreempted 2.133 -target 63.0
+plot 1329 jobResumed 63.0
+plot 1337 jobArrived 2.134 2
+plot 1337 jobResumed 2.134
+plot 1338 jobArrived 1.134 1
+plot 1338 jobResumed 1.134
+plot 1339 jobCompleted 1.134
+plot 1339 jobPreempted 1.134 -target 2.134
+plot 1339 jobResumed 2.134
+plot 1339 jobCompleted 2.134
+plot 1339 jobPreempted 2.134 -target 63.0
+plot 1339 jobResumed 63.0
+plot 1347 jobArrived 2.135 2
+plot 1347 jobResumed 2.135
+plot 1348 jobArrived 1.135 1
+plot 1348 jobResumed 1.135
+plot 1349 jobCompleted 1.135
+plot 1349 jobPreempted 1.135 -target 2.135
+plot 1349 jobResumed 2.135
+plot 1349 jobCompleted 2.135
+plot 1349 jobPreempted 2.135 -target 63.0
+plot 1349 jobResumed 63.0
+plot 1357 jobArrived 2.136 2
+plot 1357 jobPreempted 0.0 -target 2.135
+plot 1357 jobResumed 2.135
+plot 1357 jobResumed 2.136
+plot 1358 jobArrived 1.136 1
+plot 1358 jobResumed 1.136
+plot 1359 jobCompleted 1.136
+plot 1359 jobPreempted 1.136 -target 2.136
+plot 1359 jobResumed 2.136
+plot 1359 jobCompleted 2.136
+plot 1359 jobPreempted 2.136 -target 63.0
+plot 1359 jobResumed 63.0
+plot 1367 jobArrived 2.137 2
+plot 1367 jobResumed 2.137
+plot 1368 jobArrived 1.137 1
+plot 1368 jobResumed 1.137
+plot 1369 jobCompleted 1.137
+plot 1369 jobPreempted 1.137 -target 2.137
+plot 1369 jobResumed 2.137
+plot 1369 jobCompleted 2.137
+plot 1369 jobPreempted 2.137 -target 63.0
+plot 1369 jobResumed 63.0
+plot 1377 jobArrived 2.138 2
+plot 1377 jobResumed 2.138
+plot 1378 jobArrived 1.138 1
+plot 1378 jobResumed 1.138
+plot 1379 jobCompleted 1.138
+plot 1379 jobPreempted 1.138 -target 2.138
+plot 1379 jobResumed 2.138
+plot 1379 jobCompleted 2.138
+plot 1379 jobPreempted 2.138 -target 63.0
+plot 1379 jobResumed 63.0
+plot 1387 jobArrived 2.139 2
+plot 1387 jobResumed 2.139
+plot 1388 jobArrived 1.139 1
+plot 1388 jobResumed 1.139
+plot 1389 jobCompleted 1.139
+plot 1389 jobPreempted 1.139 -target 2.139
+plot 1389 jobResumed 2.139
+plot 1389 jobCompleted 2.139
+plot 1389 jobPreempted 2.139 -target 63.0
+plot 1389 jobResumed 63.0
+plot 1397 jobArrived 2.140 2
+plot 1397 jobResumed 2.140
+plot 1398 jobArrived 1.140 1
+plot 1398 jobResumed 1.140
+plot 1399 jobCompleted 1.140
+plot 1399 jobPreempted 1.140 -target 2.140
+plot 1399 jobResumed 2.140
+plot 1399 jobCompleted 2.140
+plot 1399 jobPreempted 2.140 -target 63.0
+plot 1399 jobResumed 63.0
+plot 1407 jobArrived 2.141 2
+plot 1407 jobPreempted 0.0 -target 2.140
+plot 1407 jobResumed 2.140
+plot 1407 jobResumed 2.141
+plot 1408 jobArrived 1.141 1
+plot 1408 jobResumed 1.141
+plot 1409 jobCompleted 1.141
+plot 1409 jobPreempted 1.141 -target 2.141
+plot 1409 jobResumed 2.141
+plot 1409 jobCompleted 2.141
+plot 1409 jobPreempted 2.141 -target 63.0
+plot 1409 jobResumed 63.0
+plot 1417 jobArrived 2.142 2
+plot 1417 jobResumed 2.142
+plot 1418 jobArrived 1.142 1
+plot 1418 jobResumed 1.142
+plot 1419 jobCompleted 1.142
+plot 1419 jobPreempted 1.142 -target 2.142
+plot 1419 jobResumed 2.142
+plot 1419 jobCompleted 2.142
+plot 1419 jobPreempted 2.142 -target 63.0
+plot 1419 jobResumed 63.0
+plot 1427 jobArrived 2.143 2
+plot 1427 jobResumed 2.143
+plot 1428 jobArrived 1.143 1
+plot 1428 jobResumed 1.143
+plot 1429 jobCompleted 1.143
+plot 1429 jobPreempted 1.143 -target 2.143
+plot 1429 jobResumed 2.143
+plot 1429 jobCompleted 2.143
+plot 1429 jobPreempted 2.143 -target 63.0
+plot 1429 jobResumed 63.0
+plot 1437 jobArrived 2.144 2
+plot 1437 jobResumed 2.144
+plot 1438 jobArrived 1.144 1
+plot 1438 jobResumed 1.144
+plot 1439 jobCompleted 1.144
+plot 1439 jobPreempted 1.144 -target 2.144
+plot 1439 jobResumed 2.144
+plot 1439 jobCompleted 2.144
+plot 1439 jobPreempted 2.144 -target 63.0
+plot 1439 jobResumed 63.0
+plot 1447 jobArrived 2.145 2
+plot 1447 jobResumed 2.145
+plot 1448 jobArrived 1.145 1
+plot 1448 jobResumed 1.145
+plot 1449 jobCompleted 1.145
+plot 1449 jobPreempted 1.145 -target 2.145
+plot 1449 jobResumed 2.145
+plot 1449 jobCompleted 2.145
+plot 1449 jobPreempted 2.145 -target 63.0
+plot 1449 jobResumed 63.0
+plot 1457 jobArrived 2.146 2
+plot 1457 jobPreempted 0.0 -target 2.145
+plot 1457 jobResumed 2.145
+plot 1457 jobResumed 2.146
+plot 1458 jobArrived 1.146 1
+plot 1458 jobResumed 1.146
+plot 1459 jobCompleted 1.146
+plot 1459 jobPreempted 1.146 -target 2.146
+plot 1459 jobResumed 2.146
+plot 1459 jobCompleted 2.146
+plot 1459 jobPreempted 2.146 -target 63.0
+plot 1459 jobResumed 63.0
+plot 1467 jobArrived 2.147 2
+plot 1467 jobResumed 2.147
+plot 1468 jobArrived 1.147 1
+plot 1468 jobResumed 1.147
+plot 1469 jobCompleted 1.147
+plot 1469 jobPreempted 1.147 -target 2.147
+plot 1469 jobResumed 2.147
+plot 1469 jobCompleted 2.147
+plot 1469 jobPreempted 2.147 -target 63.0
+plot 1469 jobResumed 63.0
+plot 1477 jobArrived 2.148 2
+plot 1477 jobResumed 2.148
+plot 1478 jobArrived 1.148 1
+plot 1478 jobResumed 1.148
+plot 1479 jobCompleted 1.148
+plot 1479 jobPreempted 1.148 -target 2.148
+plot 1479 jobResumed 2.148
+plot 1479 jobCompleted 2.148
+plot 1479 jobPreempted 2.148 -target 63.0
+plot 1479 jobResumed 63.0
+plot 1487 jobArrived 2.149 2
+plot 1487 jobResumed 2.149
+plot 1488 jobArrived 1.149 1
+plot 1488 jobResumed 1.149
+plot 1489 jobCompleted 1.149
+plot 1489 jobPreempted 1.149 -target 2.149
+plot 1489 jobResumed 2.149
+plot 1489 jobCompleted 2.149
+plot 1489 jobPreempted 2.149 -target 63.0
+plot 1489 jobResumed 63.0
+plot 1497 jobArrived 2.150 2
+plot 1497 jobResumed 2.150
+plot 1498 jobArrived 1.150 1
+plot 1498 jobResumed 1.150
+plot 1499 jobCompleted 1.150
+plot 1499 jobPreempted 1.150 -target 2.150
+plot 1499 jobResumed 2.150
+plot 1499 jobCompleted 2.150
+plot 1499 jobPreempted 2.150 -target 63.0
+plot 1499 jobResumed 63.0
+plot 1507 jobArrived 2.151 2
+plot 1507 jobPreempted 0.0 -target 2.150
+plot 1507 jobResumed 2.150
+plot 1507 jobResumed 2.151
+plot 1508 jobArrived 1.151 1
+plot 1508 jobResumed 1.151
+plot 1509 jobCompleted 1.151
+plot 1509 jobPreempted 1.151 -target 2.151
+plot 1509 jobResumed 2.151
+plot 1509 jobCompleted 2.151
+plot 1509 jobPreempted 2.151 -target 63.0
+plot 1509 jobResumed 63.0
+plot 1517 jobArrived 2.152 2
+plot 1517 jobResumed 2.152
+plot 1518 jobArrived 1.152 1
+plot 1518 jobResumed 1.152
+plot 1519 jobCompleted 1.152
+plot 1519 jobPreempted 1.152 -target 2.152
+plot 1519 jobResumed 2.152
+plot 1519 jobCompleted 2.152
+plot 1519 jobPreempted 2.152 -target 63.0
+plot 1519 jobResumed 63.0
+plot 1527 jobArrived 2.153 2
+plot 1527 jobResumed 2.153
+plot 1528 jobArrived 1.153 1
+plot 1528 jobResumed 1.153
+plot 1529 jobCompleted 1.153
+plot 1529 jobPreempted 1.153 -target 2.153
+plot 1529 jobResumed 2.153
+plot 1529 jobCompleted 2.153
+plot 1529 jobPreempted 2.153 -target 63.0
+plot 1529 jobResumed 63.0
+plot 1537 jobArrived 2.154 2
+plot 1537 jobResumed 2.154
+plot 1538 jobArrived 1.154 1
+plot 1538 jobResumed 1.154
+plot 1539 jobCompleted 1.154
+plot 1539 jobPreempted 1.154 -target 2.154
+plot 1539 jobResumed 2.154
+plot 1539 jobCompleted 2.154
+plot 1539 jobPreempted 2.154 -target 63.0
+plot 1539 jobResumed 63.0
+plot 1547 jobArrived 2.155 2
+plot 1547 jobResumed 2.155
+plot 1548 jobArrived 1.155 1
+plot 1548 jobResumed 1.155
+plot 1549 jobCompleted 1.155
+plot 1549 jobPreempted 1.155 -target 2.155
+plot 1549 jobResumed 2.155
+plot 1549 jobCompleted 2.155
+plot 1549 jobPreempted 2.155 -target 63.0
+plot 1549 jobResumed 63.0
+plot 1557 jobArrived 2.156 2
+plot 1557 jobPreempted 0.0 -target 2.155
+plot 1557 jobResumed 2.155
+plot 1557 jobResumed 2.156
+plot 1558 jobArrived 1.156 1
+plot 1558 jobResumed 1.156
+plot 1559 jobCompleted 1.156
+plot 1559 jobPreempted 1.156 -target 2.156
+plot 1559 jobResumed 2.156
+plot 1559 jobCompleted 2.156
+plot 1559 jobPreempted 2.156 -target 63.0
+plot 1559 jobResumed 63.0
+plot 1567 jobArrived 2.157 2
+plot 1567 jobResumed 2.157
+plot 1568 jobArrived 1.157 1
+plot 1568 jobResumed 1.157
+plot 1569 jobCompleted 1.157
+plot 1569 jobPreempted 1.157 -target 2.157
+plot 1569 jobResumed 2.157
+plot 1569 jobCompleted 2.157
+plot 1569 jobPreempted 2.157 -target 63.0
+plot 1569 jobResumed 63.0
+plot 1577 jobArrived 2.158 2
+plot 1577 jobResumed 2.158
+plot 1578 jobArrived 1.158 1
+plot 1578 jobResumed 1.158
+plot 1579 jobCompleted 1.158
+plot 1579 jobPreempted 1.158 -target 2.158
+plot 1579 jobResumed 2.158
+plot 1579 jobCompleted 2.158
+plot 1579 jobPreempted 2.158 -target 63.0
+plot 1579 jobResumed 63.0
+plot 1587 jobArrived 2.159 2
+plot 1587 jobResumed 2.159
+plot 1588 jobArrived 1.159 1
+plot 1588 jobResumed 1.159
+plot 1589 jobCompleted 1.159
+plot 1589 jobPreempted 1.159 -target 2.159
+plot 1589 jobResumed 2.159
+plot 1589 jobCompleted 2.159
+plot 1589 jobPreempted 2.159 -target 63.0
+plot 1589 jobResumed 63.0
+plot 1597 jobArrived 2.160 2
+plot 1597 jobResumed 2.160
+plot 1598 jobArrived 1.160 1
+plot 1598 jobResumed 1.160
+plot 1599 jobCompleted 1.160
+plot 1599 jobPreempted 1.160 -target 2.160
+plot 1599 jobResumed 2.160
+plot 1599 jobCompleted 2.160
+plot 1599 jobPreempted 2.160 -target 63.0
+plot 1599 jobResumed 63.0
+plot 1607 jobArrived 2.161 2
+plot 1607 jobPreempted 0.0 -target 2.160
+plot 1607 jobResumed 2.160
+plot 1607 jobResumed 2.161
+plot 1608 jobArrived 1.161 1
+plot 1608 jobResumed 1.161
+plot 1609 jobCompleted 1.161
+plot 1609 jobPreempted 1.161 -target 2.161
+plot 1609 jobResumed 2.161
+plot 1609 jobCompleted 2.161
+plot 1609 jobPreempted 2.161 -target 63.0
+plot 1609 jobResumed 63.0
+plot 1617 jobArrived 2.162 2
+plot 1617 jobResumed 2.162
+plot 1618 jobArrived 1.162 1
+plot 1618 jobResumed 1.162
+plot 1619 jobCompleted 1.162
+plot 1619 jobPreempted 1.162 -target 2.162
+plot 1619 jobResumed 2.162
+plot 1619 jobCompleted 2.162
+plot 1619 jobPreempted 2.162 -target 63.0
+plot 1619 jobResumed 63.0
+plot 1627 jobArrived 2.163 2
+plot 1627 jobResumed 2.163
+plot 1628 jobArrived 1.163 1
+plot 1628 jobResumed 1.163
+plot 1629 jobCompleted 1.163
+plot 1629 jobPreempted 1.163 -target 2.163
+plot 1629 jobResumed 2.163
+plot 1629 jobCompleted 2.163
+plot 1629 jobPreempted 2.163 -target 63.0
+plot 1629 jobResumed 63.0
+plot 1637 jobArrived 2.164 2
+plot 1637 jobResumed 2.164
+plot 1638 jobArrived 1.164 1
+plot 1638 jobResumed 1.164
+plot 1639 jobCompleted 1.164
+plot 1639 jobPreempted 1.164 -target 2.164
+plot 1639 jobResumed 2.164
+plot 1639 jobCompleted 2.164
+plot 1639 jobPreempted 2.164 -target 63.0
+plot 1639 jobResumed 63.0
+plot 1647 jobArrived 2.165 2
+plot 1647 jobResumed 2.165
+plot 1648 jobArrived 1.165 1
+plot 1648 jobResumed 1.165
+plot 1649 jobCompleted 1.165
+plot 1649 jobPreempted 1.165 -target 2.165
+plot 1649 jobResumed 2.165
+plot 1649 jobCompleted 2.165
+plot 1649 jobPreempted 2.165 -target 63.0
+plot 1649 jobResumed 63.0
+plot 1657 jobArrived 2.166 2
+plot 1657 jobPreempted 0.0 -target 2.165
+plot 1657 jobResumed 2.165
+plot 1657 jobResumed 2.166
+plot 1658 jobArrived 1.166 1
+plot 1658 jobResumed 1.166
+plot 1659 jobCompleted 1.166
+plot 1659 jobPreempted 1.166 -target 2.166
+plot 1659 jobResumed 2.166
+plot 1659 jobCompleted 2.166
+plot 1659 jobPreempted 2.166 -target 63.0
+plot 1659 jobResumed 63.0
+plot 1667 jobArrived 2.167 2
+plot 1667 jobResumed 2.167
+plot 1668 jobArrived 1.167 1
+plot 1668 jobResumed 1.167
+plot 1669 jobCompleted 1.167
+plot 1669 jobPreempted 1.167 -target 2.167
+plot 1669 jobResumed 2.167
+plot 1669 jobCompleted 2.167
+plot 1669 jobPreempted 2.167 -target 63.0
+plot 1669 jobResumed 63.0
+plot 1677 jobArrived 2.168 2
+plot 1677 jobResumed 2.168
+plot 1678 jobArrived 1.168 1
+plot 1678 jobResumed 1.168
+plot 1679 jobCompleted 1.168
+plot 1679 jobPreempted 1.168 -target 2.168
+plot 1679 jobResumed 2.168
+plot 1679 jobCompleted 2.168
+plot 1679 jobPreempted 2.168 -target 63.0
+plot 1679 jobResumed 63.0
+plot 1687 jobArrived 2.169 2
+plot 1687 jobResumed 2.169
+plot 1688 jobArrived 1.169 1
+plot 1688 jobResumed 1.169
+plot 1689 jobCompleted 1.169
+plot 1689 jobPreempted 1.169 -target 2.169
+plot 1689 jobResumed 2.169
+plot 1689 jobCompleted 2.169
+plot 1689 jobPreempted 2.169 -target 63.0
+plot 1689 jobResumed 63.0
+plot 1697 jobArrived 2.170 2
+plot 1697 jobResumed 2.170
+plot 1698 jobArrived 1.170 1
+plot 1698 jobResumed 1.170
+plot 1699 jobCompleted 1.170
+plot 1699 jobPreempted 1.170 -target 2.170
+plot 1699 jobResumed 2.170
+plot 1699 jobCompleted 2.170
+plot 1699 jobPreempted 2.170 -target 63.0
+plot 1699 jobResumed 63.0
+plot 1707 jobArrived 2.171 2
+plot 1707 jobPreempted 0.0 -target 2.170
+plot 1707 jobResumed 2.170
+plot 1707 jobResumed 2.171
+plot 1708 jobArrived 1.171 1
+plot 1708 jobResumed 1.171
+plot 1709 jobCompleted 1.171
+plot 1709 jobPreempted 1.171 -target 2.171
+plot 1709 jobResumed 2.171
+plot 1709 jobCompleted 2.171
+plot 1709 jobPreempted 2.171 -target 63.0
+plot 1709 jobResumed 63.0
+plot 1717 jobArrived 2.172 2
+plot 1717 jobResumed 2.172
+plot 1718 jobArrived 1.172 1
+plot 1718 jobResumed 1.172
+plot 1719 jobCompleted 1.172
+plot 1719 jobPreempted 1.172 -target 2.172
+plot 1719 jobResumed 2.172
+plot 1719 jobCompleted 2.172
+plot 1719 jobPreempted 2.172 -target 63.0
+plot 1719 jobResumed 63.0
+plot 1727 jobArrived 2.173 2
+plot 1727 jobResumed 2.173
+plot 1728 jobArrived 1.173 1
+plot 1728 jobResumed 1.173
+plot 1729 jobCompleted 1.173
+plot 1729 jobPreempted 1.173 -target 2.173
+plot 1729 jobResumed 2.173
+plot 1729 jobCompleted 2.173
+plot 1729 jobPreempted 2.173 -target 63.0
+plot 1729 jobResumed 63.0
+plot 1737 jobArrived 2.174 2
+plot 1737 jobResumed 2.174
+plot 1738 jobArrived 1.174 1
+plot 1738 jobResumed 1.174
+plot 1739 jobCompleted 1.174
+plot 1739 jobPreempted 1.174 -target 2.174
+plot 1739 jobResumed 2.174
+plot 1739 jobCompleted 2.174
+plot 1739 jobPreempted 2.174 -target 63.0
+plot 1739 jobResumed 63.0
+plot 1747 jobArrived 2.175 2
+plot 1747 jobResumed 2.175
+plot 1748 jobArrived 1.175 1
+plot 1748 jobResumed 1.175
+plot 1749 jobCompleted 1.175
+plot 1749 jobPreempted 1.175 -target 2.175
+plot 1749 jobResumed 2.175
+plot 1749 jobCompleted 2.175
+plot 1749 jobPreempted 2.175 -target 63.0
+plot 1749 jobResumed 63.0
+plot 1757 jobArrived 2.176 2
+plot 1757 jobPreempted 0.0 -target 2.175
+plot 1757 jobResumed 2.175
+plot 1757 jobResumed 2.176
+plot 1758 jobArrived 1.176 1
+plot 1758 jobResumed 1.176
+plot 1759 jobCompleted 1.176
+plot 1759 jobPreempted 1.176 -target 2.176
+plot 1759 jobResumed 2.176
+plot 1759 jobCompleted 2.176
+plot 1759 jobPreempted 2.176 -target 63.0
+plot 1759 jobResumed 63.0
+plot 1767 jobArrived 2.177 2
+plot 1767 jobResumed 2.177
+plot 1768 jobArrived 1.177 1
+plot 1768 jobResumed 1.177
+plot 1769 jobCompleted 1.177
+plot 1769 jobPreempted 1.177 -target 2.177
+plot 1769 jobResumed 2.177
+plot 1769 jobCompleted 2.177
+plot 1769 jobPreempted 2.177 -target 63.0
+plot 1769 jobResumed 63.0
+plot 1777 jobArrived 2.178 2
+plot 1777 jobResumed 2.178
+plot 1778 jobArrived 1.178 1
+plot 1778 jobResumed 1.178
+plot 1779 jobCompleted 1.178
+plot 1779 jobPreempted 1.178 -target 2.178
+plot 1779 jobResumed 2.178
+plot 1779 jobCompleted 2.178
+plot 1779 jobPreempted 2.178 -target 63.0
+plot 1779 jobResumed 63.0
+plot 1787 jobArrived 2.179 2
+plot 1787 jobResumed 2.179
+plot 1788 jobArrived 1.179 1
+plot 1788 jobResumed 1.179
+plot 1789 jobCompleted 1.179
+plot 1789 jobPreempted 1.179 -target 2.179
+plot 1789 jobResumed 2.179
+plot 1789 jobCompleted 2.179
+plot 1789 jobPreempted 2.179 -target 63.0
+plot 1789 jobResumed 63.0
+plot 1797 jobArrived 2.180 2
+plot 1797 jobResumed 2.180
+plot 1798 jobArrived 1.180 1
+plot 1798 jobResumed 1.180
+plot 1799 jobCompleted 1.180
+plot 1799 jobPreempted 1.180 -target 2.180
+plot 1799 jobResumed 2.180
+plot 1799 jobCompleted 2.180
+plot 1799 jobPreempted 2.180 -target 63.0
+plot 1799 jobResumed 63.0
+plot 1807 jobArrived 2.181 2
+plot 1807 jobPreempted 0.0 -target 2.180
+plot 1807 jobResumed 2.180
+plot 1807 jobResumed 2.181
+plot 1808 jobArrived 1.181 1
+plot 1808 jobResumed 1.181
+plot 1809 jobCompleted 1.181
+plot 1809 jobPreempted 1.181 -target 2.181
+plot 1809 jobResumed 2.181
+plot 1809 jobCompleted 2.181
+plot 1809 jobPreempted 2.181 -target 63.0
+plot 1809 jobResumed 63.0
+plot 1817 jobArrived 2.182 2
+plot 1817 jobResumed 2.182
+plot 1818 jobArrived 1.182 1
+plot 1818 jobResumed 1.182
+plot 1819 jobCompleted 1.182
+plot 1819 jobPreempted 1.182 -target 2.182
+plot 1819 jobResumed 2.182
+plot 1819 jobCompleted 2.182
+plot 1819 jobPreempted 2.182 -target 63.0
+plot 1819 jobResumed 63.0
+plot 1827 jobArrived 2.183 2
+plot 1827 jobResumed 2.183
+plot 1828 jobArrived 1.183 1
+plot 1828 jobResumed 1.183
+plot 1829 jobCompleted 1.183
+plot 1829 jobPreempted 1.183 -target 2.183
+plot 1829 jobResumed 2.183
+plot 1829 jobCompleted 2.183
+plot 1829 jobPreempted 2.183 -target 63.0
+plot 1829 jobResumed 63.0
+plot 1837 jobArrived 2.184 2
+plot 1837 jobResumed 2.184
+plot 1838 jobArrived 1.184 1
+plot 1838 jobResumed 1.184
+plot 1839 jobCompleted 1.184
+plot 1839 jobPreempted 1.184 -target 2.184
+plot 1839 jobResumed 2.184
+plot 1839 jobCompleted 2.184
+plot 1839 jobPreempted 2.184 -target 63.0
+plot 1839 jobResumed 63.0
+plot 1847 jobArrived 2.185 2
+plot 1847 jobResumed 2.185
+plot 1848 jobArrived 1.185 1
+plot 1848 jobResumed 1.185
+plot 1849 jobCompleted 1.185
+plot 1849 jobPreempted 1.185 -target 2.185
+plot 1849 jobResumed 2.185
+plot 1849 jobCompleted 2.185
+plot 1849 jobPreempted 2.185 -target 63.0
+plot 1849 jobResumed 63.0
+plot 1857 jobArrived 2.186 2
+plot 1857 jobPreempted 0.0 -target 2.185
+plot 1857 jobResumed 2.185
+plot 1857 jobResumed 2.186
+plot 1858 jobArrived 1.186 1
+plot 1858 jobResumed 1.186
+plot 1859 jobCompleted 1.186
+plot 1859 jobPreempted 1.186 -target 2.186
+plot 1859 jobResumed 2.186
+plot 1859 jobCompleted 2.186
+plot 1859 jobPreempted 2.186 -target 63.0
+plot 1859 jobResumed 63.0
+plot 1867 jobArrived 2.187 2
+plot 1867 jobResumed 2.187
+plot 1868 jobArrived 1.187 1
+plot 1868 jobResumed 1.187
+plot 1869 jobCompleted 1.187
+plot 1869 jobPreempted 1.187 -target 2.187
+plot 1869 jobResumed 2.187
+plot 1869 jobCompleted 2.187
+plot 1869 jobPreempted 2.187 -target 63.0
+plot 1869 jobResumed 63.0
+plot 1877 jobArrived 2.188 2
+plot 1877 jobResumed 2.188
+plot 1878 jobArrived 1.188 1
+plot 1878 jobResumed 1.188
+plot 1879 jobCompleted 1.188
+plot 1879 jobPreempted 1.188 -target 2.188
+plot 1879 jobResumed 2.188
+plot 1879 jobCompleted 2.188
+plot 1879 jobPreempted 2.188 -target 63.0
+plot 1879 jobResumed 63.0
+plot 1887 jobArrived 2.189 2
+plot 1887 jobResumed 2.189
+plot 1888 jobArrived 1.189 1
+plot 1888 jobResumed 1.189
+plot 1889 jobCompleted 1.189
+plot 1889 jobPreempted 1.189 -target 2.189
+plot 1889 jobResumed 2.189
+plot 1889 jobCompleted 2.189
+plot 1889 jobPreempted 2.189 -target 63.0
+plot 1889 jobResumed 63.0
+plot 1897 jobArrived 2.190 2
+plot 1897 jobResumed 2.190
+plot 1898 jobArrived 1.190 1
+plot 1898 jobResumed 1.190
+plot 1899 jobCompleted 1.190
+plot 1899 jobPreempted 1.190 -target 2.190
+plot 1899 jobResumed 2.190
+plot 1899 jobCompleted 2.190
+plot 1899 jobPreempted 2.190 -target 63.0
+plot 1899 jobResumed 63.0
+plot 1907 jobArrived 2.191 2
+plot 1907 jobPreempted 0.0 -target 2.190
+plot 1907 jobResumed 2.190
+plot 1907 jobResumed 2.191
+plot 1908 jobArrived 1.191 1
+plot 1908 jobResumed 1.191
+plot 1909 jobCompleted 1.191
+plot 1909 jobPreempted 1.191 -target 2.191
+plot 1909 jobResumed 2.191
+plot 1909 jobCompleted 2.191
+plot 1909 jobPreempted 2.191 -target 63.0
+plot 1909 jobResumed 63.0
+plot 1917 jobArrived 2.192 2
+plot 1917 jobResumed 2.192
+plot 1918 jobArrived 1.192 1
+plot 1918 jobResumed 1.192
+plot 1919 jobCompleted 1.192
+plot 1919 jobPreempted 1.192 -target 2.192
+plot 1919 jobResumed 2.192
+plot 1919 jobCompleted 2.192
+plot 1919 jobPreempted 2.192 -target 63.0
+plot 1919 jobResumed 63.0
+plot 1927 jobArrived 2.193 2
+plot 1927 jobResumed 2.193
+plot 1928 jobArrived 1.193 1
+plot 1928 jobResumed 1.193
+plot 1929 jobCompleted 1.193
+plot 1929 jobPreempted 1.193 -target 2.193
+plot 1929 jobResumed 2.193
+plot 1929 jobCompleted 2.193
+plot 1929 jobPreempted 2.193 -target 63.0
+plot 1929 jobResumed 63.0
+plot 1937 jobArrived 2.194 2
+plot 1937 jobResumed 2.194
+plot 1938 jobArrived 1.194 1
+plot 1938 jobResumed 1.194
+plot 1939 jobCompleted 1.194
+plot 1939 jobPreempted 1.194 -target 2.194
+plot 1939 jobResumed 2.194
+plot 1939 jobCompleted 2.194
+plot 1939 jobPreempted 2.194 -target 63.0
+plot 1939 jobResumed 63.0
+plot 1947 jobArrived 2.195 2
+plot 1947 jobResumed 2.195
+plot 1948 jobArrived 1.195 1
+plot 1948 jobResumed 1.195
+plot 1949 jobCompleted 1.195
+plot 1949 jobPreempted 1.195 -target 2.195
+plot 1949 jobResumed 2.195
+plot 1949 jobCompleted 2.195
+plot 1949 jobPreempted 2.195 -target 63.0
+plot 1949 jobResumed 63.0
+plot 1957 jobArrived 2.196 2
+plot 1957 jobPreempted 0.0 -target 2.195
+plot 1957 jobResumed 2.195
+plot 1957 jobResumed 2.196
+plot 1958 jobArrived 1.196 1
+plot 1958 jobResumed 1.196
+plot 1959 jobCompleted 1.196
+plot 1959 jobPreempted 1.196 -target 2.196
+plot 1959 jobResumed 2.196
+plot 1959 jobCompleted 2.196
+plot 1959 jobPreempted 2.196 -target 63.0
+plot 1959 jobResumed 63.0
+plot 1967 jobArrived 2.197 2
+plot 1967 jobResumed 2.197
+plot 1968 jobArrived 1.197 1
+plot 1968 jobResumed 1.197
+plot 1969 jobCompleted 1.197
+plot 1969 jobPreempted 1.197 -target 2.197
+plot 1969 jobResumed 2.197
+plot 1969 jobCompleted 2.197
+plot 1969 jobPreempted 2.197 -target 63.0
+plot 1969 jobResumed 63.0
+plot 1977 jobArrived 2.198 2
+plot 1977 jobResumed 2.198
+plot 1978 jobArrived 1.198 1
+plot 1978 jobResumed 1.198
+plot 1979 jobCompleted 1.198
+plot 1979 jobPreempted 1.198 -target 2.198
+plot 1979 jobResumed 2.198
+plot 1979 jobCompleted 2.198
+plot 1979 jobPreempted 2.198 -target 63.0
+plot 1979 jobResumed 63.0
+plot 1987 jobArrived 2.199 2
+plot 1987 jobResumed 2.199
+plot 1988 jobArrived 1.199 1
+plot 1988 jobResumed 1.199
+plot 1989 jobCompleted 1.199
+plot 1989 jobPreempted 1.199 -target 2.199
+plot 1989 jobResumed 2.199
+plot 1989 jobCompleted 2.199
+plot 1989 jobPreempted 2.199 -target 63.0
+plot 1989 jobResumed 63.0
+plot 1997 jobArrived 2.200 2
+plot 1997 jobResumed 2.200
+plot 1998 jobArrived 1.200 1
+plot 1998 jobResumed 1.200
+plot 1999 jobCompleted 1.200
+plot 1999 jobPreempted 1.200 -target 2.200
+plot 1999 jobResumed 2.200
+plot 1999 jobCompleted 2.200
+plot 1999 jobPreempted 2.200 -target 63.0
+plot 1999 jobResumed 63.0
+plot 2007 jobArrived 2.201 2
+plot 2007 jobPreempted 0.0 -target 2.200
+plot 2007 jobResumed 2.200
+plot 2007 jobResumed 2.201
+plot 2008 jobArrived 1.201 1
+plot 2008 jobResumed 1.201
+plot 2009 jobCompleted 1.201
+plot 2009 jobPreempted 1.201 -target 2.201
+plot 2009 jobResumed 2.201
+plot 2009 jobCompleted 2.201
+plot 2009 jobPreempted 2.201 -target 63.0
+plot 2009 jobResumed 63.0
+plot 2017 jobArrived 2.202 2
+plot 2017 jobResumed 2.202
+plot 2018 jobArrived 1.202 1
+plot 2018 jobResumed 1.202
+plot 2019 jobCompleted 1.202
+plot 2019 jobPreempted 1.202 -target 2.202
+plot 2019 jobResumed 2.202
+plot 2019 jobCompleted 2.202
+plot 2019 jobPreempted 2.202 -target 63.0
+plot 2019 jobResumed 63.0
+plot 2027 jobArrived 2.203 2
+plot 2027 jobResumed 2.203
+plot 2028 jobArrived 1.203 1
+plot 2028 jobResumed 1.203
+plot 2029 jobCompleted 1.203
+plot 2029 jobPreempted 1.203 -target 2.203
+plot 2029 jobResumed 2.203
+plot 2029 jobCompleted 2.203
+plot 2029 jobPreempted 2.203 -target 63.0
+plot 2029 jobResumed 63.0
+plot 2037 jobArrived 2.204 2
+plot 2037 jobResumed 2.204
+plot 2038 jobArrived 1.204 1
+plot 2038 jobResumed 1.204
+plot 2039 jobCompleted 1.204
+plot 2039 jobPreempted 1.204 -target 2.204
+plot 2039 jobResumed 2.204
+plot 2039 jobCompleted 2.204
+plot 2039 jobPreempted 2.204 -target 63.0
+plot 2039 jobResumed 63.0
+plot 2047 jobArrived 2.205 2
+plot 2047 jobResumed 2.205
+plot 2048 jobArrived 1.205 1
+plot 2048 jobResumed 1.205
+plot 2049 jobCompleted 1.205
+plot 2049 jobPreempted 1.205 -target 2.205
+plot 2049 jobResumed 2.205
+plot 2049 jobCompleted 2.205
+plot 2049 jobPreempted 2.205 -target 63.0
+plot 2049 jobResumed 63.0
+plot 2057 jobArrived 2.206 2
+plot 2057 jobPreempted 0.0 -target 2.205
+plot 2057 jobResumed 2.205
+plot 2057 jobResumed 2.206
+plot 2058 jobArrived 1.206 1
+plot 2058 jobResumed 1.206
+plot 2059 jobCompleted 1.206
+plot 2059 jobPreempted 1.206 -target 2.206
+plot 2059 jobResumed 2.206
+plot 2059 jobCompleted 2.206
+plot 2059 jobPreempted 2.206 -target 63.0
+plot 2059 jobResumed 63.0
+plot 2067 jobArrived 2.207 2
+plot 2067 jobResumed 2.207
+plot 2068 jobArrived 1.207 1
+plot 2068 jobResumed 1.207
+plot 2069 jobCompleted 1.207
+plot 2069 jobPreempted 1.207 -target 2.207
+plot 2069 jobResumed 2.207
+plot 2069 jobCompleted 2.207
+plot 2069 jobPreempted 2.207 -target 63.0
+plot 2069 jobResumed 63.0
+plot 2077 jobArrived 2.208 2
+plot 2077 jobResumed 2.208
+plot 2078 jobArrived 1.208 1
+plot 2078 jobResumed 1.208
+plot 2079 jobCompleted 1.208
+plot 2079 jobPreempted 1.208 -target 2.208
+plot 2079 jobResumed 2.208
+plot 2079 jobCompleted 2.208
+plot 2079 jobPreempted 2.208 -target 63.0
+plot 2079 jobResumed 63.0
+plot 2087 jobArrived 2.209 2
+plot 2087 jobResumed 2.209
+plot 2088 jobArrived 1.209 1
+plot 2088 jobResumed 1.209
+plot 2089 jobCompleted 1.209
+plot 2089 jobPreempted 1.209 -target 2.209
+plot 2089 jobResumed 2.209
+plot 2089 jobCompleted 2.209
+plot 2089 jobPreempted 2.209 -target 63.0
+plot 2089 jobResumed 63.0
+plot 2097 jobArrived 2.210 2
+plot 2097 jobResumed 2.210
+plot 2098 jobArrived 1.210 1
+plot 2098 jobResumed 1.210
+plot 2099 jobCompleted 1.210
+plot 2099 jobPreempted 1.210 -target 2.210
+plot 2099 jobResumed 2.210
+plot 2099 jobCompleted 2.210
+plot 2099 jobPreempted 2.210 -target 63.0
+plot 2099 jobResumed 63.0
+plot 2107 jobArrived 2.211 2
+plot 2107 jobPreempted 0.0 -target 2.210
+plot 2107 jobResumed 2.210
+plot 2107 jobResumed 2.211
+plot 2108 jobArrived 1.211 1
+plot 2108 jobResumed 1.211
+plot 2109 jobCompleted 1.211
+plot 2109 jobPreempted 1.211 -target 2.211
+plot 2109 jobResumed 2.211
+plot 2109 jobCompleted 2.211
+plot 2109 jobPreempted 2.211 -target 63.0
+plot 2109 jobResumed 63.0
+plot 2117 jobArrived 2.212 2
+plot 2117 jobResumed 2.212
+plot 2118 jobArrived 1.212 1
+plot 2118 jobResumed 1.212
+plot 2119 jobCompleted 1.212
+plot 2119 jobPreempted 1.212 -target 2.212
+plot 2119 jobResumed 2.212
+plot 2119 jobCompleted 2.212
+plot 2119 jobPreempted 2.212 -target 63.0
+plot 2119 jobResumed 63.0
+plot 2127 jobArrived 2.213 2
+plot 2127 jobResumed 2.213
+plot 2128 jobArrived 1.213 1
+plot 2128 jobResumed 1.213
+plot 2129 jobCompleted 1.213
+plot 2129 jobPreempted 1.213 -target 2.213
+plot 2129 jobResumed 2.213
+plot 2129 jobCompleted 2.213
+plot 2129 jobPreempted 2.213 -target 63.0
+plot 2129 jobResumed 63.0
+plot 2137 jobArrived 2.214 2
+plot 2137 jobResumed 2.214
+plot 2138 jobArrived 1.214 1
+plot 2138 jobResumed 1.214
+plot 2139 jobCompleted 1.214
+plot 2139 jobPreempted 1.214 -target 2.214
+plot 2139 jobResumed 2.214
+plot 2139 jobCompleted 2.214
+plot 2139 jobPreempted 2.214 -target 63.0
+plot 2139 jobResumed 63.0
+plot 2147 jobArrived 2.215 2
+plot 2147 jobResumed 2.215
+plot 2148 jobArrived 1.215 1
+plot 2148 jobResumed 1.215
+plot 2149 jobCompleted 1.215
+plot 2149 jobPreempted 1.215 -target 2.215
+plot 2149 jobResumed 2.215
+plot 2149 jobCompleted 2.215
+plot 2149 jobPreempted 2.215 -target 63.0
+plot 2149 jobResumed 63.0
+plot 2157 jobArrived 2.216 2
+plot 2157 jobPreempted 0.0 -target 2.215
+plot 2157 jobResumed 2.215
+plot 2157 jobResumed 2.216
+plot 2158 jobArrived 1.216 1
+plot 2158 jobResumed 1.216
+plot 2159 jobCompleted 1.216
+plot 2159 jobPreempted 1.216 -target 2.216
+plot 2159 jobResumed 2.216
+plot 2159 jobCompleted 2.216
+plot 2159 jobPreempted 2.216 -target 63.0
+plot 2159 jobResumed 63.0
+plot 2167 jobArrived 2.217 2
+plot 2167 jobResumed 2.217
+plot 2168 jobArrived 1.217 1
+plot 2168 jobResumed 1.217
+plot 2169 jobCompleted 1.217
+plot 2169 jobPreempted 1.217 -target 2.217
+plot 2169 jobResumed 2.217
+plot 2169 jobCompleted 2.217
+plot 2169 jobPreempted 2.217 -target 63.0
+plot 2169 jobResumed 63.0
+plot 2177 jobArrived 2.218 2
+plot 2177 jobResumed 2.218
+plot 2178 jobArrived 1.218 1
+plot 2178 jobResumed 1.218
+plot 2179 jobCompleted 1.218
+plot 2179 jobPreempted 1.218 -target 2.218
+plot 2179 jobResumed 2.218
+plot 2179 jobCompleted 2.218
+plot 2179 jobPreempted 2.218 -target 63.0
+plot 2179 jobResumed 63.0
+plot 2187 jobArrived 2.219 2
+plot 2187 jobResumed 2.219
+plot 2188 jobArrived 1.219 1
+plot 2188 jobResumed 1.219
+plot 2189 jobCompleted 1.219
+plot 2189 jobPreempted 1.219 -target 2.219
+plot 2189 jobResumed 2.219
+plot 2189 jobCompleted 2.219
+plot 2189 jobPreempted 2.219 -target 63.0
+plot 2189 jobResumed 63.0
+plot 2197 jobArrived 2.220 2
+plot 2197 jobResumed 2.220
+plot 2198 jobArrived 1.220 1
+plot 2198 jobResumed 1.220
+plot 2199 jobCompleted 1.220
+plot 2199 jobPreempted 1.220 -target 2.220
+plot 2199 jobResumed 2.220
+plot 2199 jobCompleted 2.220
+plot 2199 jobPreempted 2.220 -target 63.0
+plot 2199 jobResumed 63.0
+plot 2207 jobArrived 2.221 2
+plot 2207 jobPreempted 0.0 -target 2.220
+plot 2207 jobResumed 2.220
+plot 2207 jobResumed 2.221
+plot 2208 jobArrived 1.221 1
+plot 2208 jobResumed 1.221
+plot 2209 jobCompleted 1.221
+plot 2209 jobPreempted 1.221 -target 2.221
+plot 2209 jobResumed 2.221
+plot 2209 jobCompleted 2.221
+plot 2209 jobPreempted 2.221 -target 63.0
+plot 2209 jobResumed 63.0
+plot 2217 jobArrived 2.222 2
+plot 2217 jobResumed 2.222
+plot 2218 jobArrived 1.222 1
+plot 2218 jobResumed 1.222
+plot 2219 jobCompleted 1.222
+plot 2219 jobPreempted 1.222 -target 2.222
+plot 2219 jobResumed 2.222
+plot 2219 jobCompleted 2.222
+plot 2219 jobPreempted 2.222 -target 63.0
+plot 2219 jobResumed 63.0
+plot 2227 jobArrived 2.223 2
+plot 2227 jobResumed 2.223
+plot 2228 jobArrived 1.223 1
+plot 2228 jobResumed 1.223
+plot 2229 jobCompleted 1.223
+plot 2229 jobPreempted 1.223 -target 2.223
+plot 2229 jobResumed 2.223
+plot 2229 jobCompleted 2.223
+plot 2229 jobPreempted 2.223 -target 63.0
+plot 2229 jobResumed 63.0
+plot 2237 jobArrived 2.224 2
+plot 2237 jobResumed 2.224
+plot 2238 jobArrived 1.224 1
+plot 2238 jobResumed 1.224
+plot 2239 jobCompleted 1.224
+plot 2239 jobPreempted 1.224 -target 2.224
+plot 2239 jobResumed 2.224
+plot 2239 jobCompleted 2.224
+plot 2239 jobPreempted 2.224 -target 63.0
+plot 2239 jobResumed 63.0
+plot 2247 jobArrived 2.225 2
+plot 2247 jobResumed 2.225
+plot 2248 jobArrived 1.225 1
+plot 2248 jobResumed 1.225
+plot 2249 jobCompleted 1.225
+plot 2249 jobPreempted 1.225 -target 2.225
+plot 2249 jobResumed 2.225
+plot 2249 jobCompleted 2.225
+plot 2249 jobPreempted 2.225 -target 63.0
+plot 2249 jobResumed 63.0
+plot 2257 jobArrived 2.226 2
+plot 2257 jobPreempted 0.0 -target 2.225
+plot 2257 jobResumed 2.225
+plot 2257 jobResumed 2.226
+plot 2258 jobArrived 1.226 1
+plot 2258 jobResumed 1.226
+plot 2259 jobCompleted 1.226
+plot 2259 jobPreempted 1.226 -target 2.226
+plot 2259 jobResumed 2.226
+plot 2259 jobCompleted 2.226
+plot 2259 jobPreempted 2.226 -target 63.0
+plot 2259 jobResumed 63.0
+plot 2267 jobArrived 2.227 2
+plot 2267 jobResumed 2.227
+plot 2268 jobArrived 1.227 1
+plot 2268 jobResumed 1.227
+plot 2269 jobCompleted 1.227
+plot 2269 jobPreempted 1.227 -target 2.227
+plot 2269 jobResumed 2.227
+plot 2269 jobCompleted 2.227
+plot 2269 jobPreempted 2.227 -target 63.0
+plot 2269 jobResumed 63.0
+plot 2277 jobArrived 2.228 2
+plot 2277 jobResumed 2.228
+plot 2278 jobArrived 1.228 1
+plot 2278 jobResumed 1.228
+plot 2279 jobCompleted 1.228
+plot 2279 jobPreempted 1.228 -target 2.228
+plot 2279 jobResumed 2.228
+plot 2279 jobCompleted 2.228
+plot 2279 jobPreempted 2.228 -target 63.0
+plot 2279 jobResumed 63.0
+plot 2287 jobArrived 2.229 2
+plot 2287 jobResumed 2.229
+plot 2288 jobArrived 1.229 1
+plot 2288 jobResumed 1.229
+plot 2289 jobCompleted 1.229
+plot 2289 jobPreempted 1.229 -target 2.229
+plot 2289 jobResumed 2.229
+plot 2289 jobCompleted 2.229
+plot 2289 jobPreempted 2.229 -target 63.0
+plot 2289 jobResumed 63.0
+plot 2297 jobArrived 2.230 2
+plot 2297 jobResumed 2.230
+plot 2298 jobArrived 1.230 1
+plot 2298 jobResumed 1.230
+plot 2299 jobCompleted 1.230
+plot 2299 jobPreempted 1.230 -target 2.230
+plot 2299 jobResumed 2.230
+plot 2299 jobCompleted 2.230
+plot 2299 jobPreempted 2.230 -target 63.0
+plot 2299 jobResumed 63.0
+plot 2307 jobArrived 2.231 2
+plot 2307 jobPreempted 0.0 -target 2.230
+plot 2307 jobResumed 2.230
+plot 2307 jobResumed 2.231
+plot 2308 jobArrived 1.231 1
+plot 2308 jobResumed 1.231
+plot 2309 jobCompleted 1.231
+plot 2309 jobPreempted 1.231 -target 2.231
+plot 2309 jobResumed 2.231
+plot 2309 jobCompleted 2.231
+plot 2309 jobPreempted 2.231 -target 63.0
+plot 2309 jobResumed 63.0
+plot 2317 jobArrived 2.232 2
+plot 2317 jobResumed 2.232
+plot 2318 jobArrived 1.232 1
+plot 2318 jobResumed 1.232
+plot 2319 jobCompleted 1.232
+plot 2319 jobPreempted 1.232 -target 2.232
+plot 2319 jobResumed 2.232
+plot 2319 jobCompleted 2.232
+plot 2319 jobPreempted 2.232 -target 63.0
+plot 2319 jobResumed 63.0
+plot 2327 jobArrived 2.233 2
+plot 2327 jobResumed 2.233
+plot 2328 jobArrived 1.233 1
+plot 2328 jobResumed 1.233
+plot 2329 jobCompleted 1.233
+plot 2329 jobPreempted 1.233 -target 2.233
+plot 2329 jobResumed 2.233
+plot 2329 jobCompleted 2.233
+plot 2329 jobPreempted 2.233 -target 63.0
+plot 2329 jobResumed 63.0
+plot 2337 jobArrived 2.234 2
+plot 2337 jobResumed 2.234
+plot 2338 jobArrived 1.234 1
+plot 2338 jobResumed 1.234
+plot 2339 jobCompleted 1.234
+plot 2339 jobPreempted 1.234 -target 2.234
+plot 2339 jobResumed 2.234
+plot 2339 jobCompleted 2.234
+plot 2339 jobPreempted 2.234 -target 63.0
+plot 2339 jobResumed 63.0
+plot 2347 jobArrived 2.235 2
+plot 2347 jobResumed 2.235
+plot 2348 jobArrived 1.235 1
+plot 2348 jobResumed 1.235
+plot 2349 jobCompleted 1.235
+plot 2349 jobPreempted 1.235 -target 2.235
+plot 2349 jobResumed 2.235
+plot 2349 jobCompleted 2.235
+plot 2349 jobPreempted 2.235 -target 63.0
+plot 2349 jobResumed 63.0
+plot 2357 jobArrived 2.236 2
+plot 2357 jobPreempted 0.0 -target 2.235
+plot 2357 jobResumed 2.235
+plot 2357 jobResumed 2.236
+plot 2358 jobArrived 1.236 1
+plot 2358 jobResumed 1.236
+plot 2359 jobCompleted 1.236
+plot 2359 jobPreempted 1.236 -target 2.236
+plot 2359 jobResumed 2.236
+plot 2359 jobCompleted 2.236
+plot 2359 jobPreempted 2.236 -target 63.0
+plot 2359 jobResumed 63.0
+plot 2367 jobArrived 2.237 2
+plot 2367 jobResumed 2.237
+plot 2368 jobArrived 1.237 1
+plot 2368 jobResumed 1.237
+plot 2369 jobCompleted 1.237
+plot 2369 jobPreempted 1.237 -target 2.237
+plot 2369 jobResumed 2.237
+plot 2369 jobCompleted 2.237
+plot 2369 jobPreempted 2.237 -target 63.0
+plot 2369 jobResumed 63.0
+plot 2377 jobArrived 2.238 2
+plot 2377 jobResumed 2.238
+plot 2378 jobArrived 1.238 1
+plot 2378 jobResumed 1.238
+plot 2379 jobCompleted 1.238
+plot 2379 jobPreempted 1.238 -target 2.238
+plot 2379 jobResumed 2.238
+plot 2379 jobCompleted 2.238
+plot 2379 jobPreempted 2.238 -target 63.0
+plot 2379 jobResumed 63.0
+plot 2387 jobArrived 2.239 2
+plot 2387 jobResumed 2.239
+plot 2388 jobArrived 1.239 1
+plot 2388 jobResumed 1.239
+plot 2389 jobCompleted 1.239
+plot 2389 jobPreempted 1.239 -target 2.239
+plot 2389 jobResumed 2.239
+plot 2389 jobCompleted 2.239
+plot 2389 jobPreempted 2.239 -target 63.0
+plot 2389 jobResumed 63.0
+plot 2397 jobArrived 2.240 2
+plot 2397 jobResumed 2.240
+plot 2398 jobArrived 1.240 1
+plot 2398 jobResumed 1.240
+plot 2399 jobCompleted 1.240
+plot 2399 jobPreempted 1.240 -target 2.240
+plot 2399 jobResumed 2.240
+plot 2399 jobCompleted 2.240
+plot 2399 jobPreempted 2.240 -target 63.0
+plot 2399 jobResumed 63.0
+plot 2407 jobArrived 2.241 2
+plot 2407 jobPreempted 0.0 -target 2.240
+plot 2407 jobResumed 2.240
+plot 2407 jobResumed 2.241
+plot 2408 jobArrived 1.241 1
+plot 2408 jobResumed 1.241
+plot 2409 jobCompleted 1.241
+plot 2409 jobPreempted 1.241 -target 2.241
+plot 2409 jobResumed 2.241
+plot 2409 jobCompleted 2.241
+plot 2409 jobPreempted 2.241 -target 63.0
+plot 2409 jobResumed 63.0
+plot 2417 jobArrived 2.242 2
+plot 2417 jobResumed 2.242
+plot 2418 jobArrived 1.242 1
+plot 2418 jobResumed 1.242
+plot 2419 jobCompleted 1.242
+plot 2419 jobPreempted 1.242 -target 2.242
+plot 2419 jobResumed 2.242
+plot 2419 jobCompleted 2.242
+plot 2419 jobPreempted 2.242 -target 63.0
+plot 2419 jobResumed 63.0
+plot 2427 jobArrived 2.243 2
+plot 2427 jobResumed 2.243
+plot 2428 jobArrived 1.243 1
+plot 2428 jobResumed 1.243
+plot 2429 jobCompleted 1.243
+plot 2429 jobPreempted 1.243 -target 2.243
+plot 2429 jobResumed 2.243
+plot 2429 jobCompleted 2.243
+plot 2429 jobPreempted 2.243 -target 63.0
+plot 2429 jobResumed 63.0
+plot 2437 jobArrived 2.244 2
+plot 2437 jobResumed 2.244
+plot 2438 jobArrived 1.244 1
+plot 2438 jobResumed 1.244
+plot 2439 jobCompleted 1.244
+plot 2439 jobPreempted 1.244 -target 2.244
+plot 2439 jobResumed 2.244
+newTask 63 -priority 63
+newTask 62 -priority 62
+newTask 61 -priority 61
+newTask 0 -priority 0
+plot 0 jobPreempted 0.0 -target 61.0
+plot 0 jobResumed 61.0
+plot 0 jobPreempted 61.0 -target 62.0
+plot 0 jobResumed 62.0
+plot 0 jobPreempted 62.0 -target 63.0
+plot 0 jobResumed 63.0
+plot 2 jobPreempted 0.0 -target 63.0
+plot 2 jobResumed 63.0
+newTask 1 -priority 1
+newTask 2 -priority 2
+plot 7 jobArrived 2.1 2
+plot 7 jobPreempted 0.0 -target 1.0
+plot 7 jobResumed 1.0
+plot 7 jobCompleted 1.0
+plot 7 jobPreempted 1.0 -target 2.0
+plot 7 jobResumed 2.0
+plot 7 jobCompleted 2.0
+plot 7 jobResumed 2.1
